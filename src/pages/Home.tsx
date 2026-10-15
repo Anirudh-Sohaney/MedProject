@@ -26,9 +26,17 @@ export const Home: React.FC = () => {
   const [apiKeyInput, setApiKeyInput] = useState(() => getOpenRouterApiKey());
   const [selectedModel, setModel] = useState(() => getSelectedModel());
   const [savedNotice, setSavedNotice] = useState(false);
+  const hasKey = Boolean(apiKeyInput && apiKeyInput.trim());
+  const isFormVisible = showSettings || !hasKey;
 
   const handleFile = async (file: File) => {
     try {
+      if (scanEngine === 'openrouter' && !getOpenRouterApiKey()) {
+        setLocalError('Please enter your OpenRouter API Key below to use GPT-6 Luna, or tap On-Device YOLOE.');
+        setShowSettings(true);
+        return;
+      }
+
       setProcessing(true);
       setLocalError(null);
       await setSourceFromFile(file);
@@ -45,6 +53,8 @@ export const Home: React.FC = () => {
     setOpenRouterApiKey(apiKeyInput);
     setSelectedModel(selectedModel);
     setSavedNotice(true);
+    setShowSettings(false);
+    setLocalError(null);
     setTimeout(() => setSavedNotice(false), 2000);
   };
 
@@ -176,34 +186,38 @@ export const Home: React.FC = () => {
             <div>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.85rem' }}>
-                  <span style={{ color: '#16a34a' }}>●</span>
+                  <span style={{ color: hasKey ? '#16a34a' : '#f59e0b' }}>●</span>
                   <div>
-                    <strong style={{ display: 'block' }}>OpenRouter Vision Active</strong>
+                    <strong style={{ display: 'block' }}>
+                      {hasKey ? 'OpenRouter Vision Active' : 'OpenRouter API Key Required'}
+                    </strong>
                     <span style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)' }}>
-                      Model: {selectedModel}
+                      {hasKey ? `Model: ${selectedModel}` : 'Paste your OpenRouter key below to enable GPT-6 Luna'}
                     </span>
                   </div>
                 </div>
-                <button
-                  type="button"
-                  onClick={() => setShowSettings(!showSettings)}
-                  style={{
-                    background: 'none',
-                    border: '1px solid var(--color-border)',
-                    borderRadius: '6px',
-                    padding: '4px 8px',
-                    fontSize: '0.75rem',
-                    cursor: 'pointer',
-                    color: 'var(--color-text-main)',
-                    fontWeight: 500,
-                  }}
-                >
-                  {showSettings ? 'Close' : '⚙️ Settings'}
-                </button>
+                {hasKey && (
+                  <button
+                    type="button"
+                    onClick={() => setShowSettings(!showSettings)}
+                    style={{
+                      background: 'none',
+                      border: '1px solid var(--color-border)',
+                      borderRadius: '6px',
+                      padding: '4px 8px',
+                      fontSize: '0.75rem',
+                      cursor: 'pointer',
+                      color: 'var(--color-text-main)',
+                      fontWeight: 500,
+                    }}
+                  >
+                    {showSettings ? 'Close' : '⚙️ Settings'}
+                  </button>
+                )}
               </div>
 
-              {/* Collapsible Settings */}
-              {showSettings && (
+              {/* Collapsible / Default-Open Settings */}
+              {isFormVisible && (
                 <form onSubmit={handleSaveSettings} style={{ marginTop: '12px', borderTop: '1px solid var(--color-border)', paddingTop: '10px' }}>
                   <div style={{ marginBottom: '10px' }}>
                     <label style={{ display: 'block', fontSize: '0.75rem', fontWeight: 600, marginBottom: '4px' }}>
@@ -216,13 +230,17 @@ export const Home: React.FC = () => {
                       onChange={(e) => setApiKeyInput(e.target.value)}
                       style={{
                         width: '100%',
-                        padding: '6px 8px',
-                        fontSize: '0.8rem',
+                        padding: '8px 10px',
+                        fontSize: '0.82rem',
                         border: '1px solid var(--color-border)',
-                        borderRadius: '4px',
+                        borderRadius: '6px',
                         boxSizing: 'border-box',
+                        fontFamily: 'monospace',
                       }}
                     />
+                    <span style={{ fontSize: '0.7rem', color: 'var(--color-text-muted)', display: 'block', marginTop: '3px' }}>
+                      Stored safely in your device browser's localStorage.
+                    </span>
                   </div>
 
                   <div style={{ marginBottom: '10px' }}>
@@ -254,17 +272,17 @@ export const Home: React.FC = () => {
                     <button
                       type="submit"
                       style={{
-                        padding: '6px 14px',
+                        padding: '7px 16px',
                         backgroundColor: 'var(--color-primary)',
                         color: '#fff',
                         border: 'none',
                         borderRadius: '4px',
-                        fontSize: '0.78rem',
+                        fontSize: '0.82rem',
                         fontWeight: 600,
                         cursor: 'pointer',
                       }}
                     >
-                      Save Settings
+                      {hasKey ? 'Save Settings' : 'Save & Enable GPT-6 Luna'}
                     </button>
                     {savedNotice && (
                       <span style={{ fontSize: '0.75rem', color: '#16a34a', fontWeight: 600 }}>
