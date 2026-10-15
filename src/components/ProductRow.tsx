@@ -119,7 +119,13 @@ export const ProductRow: React.FC<ProductRowProps> = ({ match, onCorrect, onHove
             flexWrap: 'wrap',
           }}
         >
-          <ConfidenceBadge confidence={match.confidence} />
+          <ConfidenceBadge
+            confidence={match.confidence}
+            detectorScore={match.detectorScore}
+            ocrMatch={match.ocrMatch}
+            candidateMargin={match.candidateMargin}
+            isProduce={match.category === 'produce'}
+          />
           {isProvisional && (
             <span
               style={{

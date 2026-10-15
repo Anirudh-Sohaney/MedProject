@@ -48,31 +48,32 @@ export async function decodeFileToCanvas(file: File): Promise<HTMLCanvasElement>
 }
 
 /**
- * Resizes full-resolution canvas into a 416x416 square letterboxed detector canvas.
+ * Scales canvas to a manageable dimension for the detector (maxDimension = 1280),
+ * preserving exact aspect ratio WITHOUT any black letterboxing bars or padding.
+ * Ultralytics YOLO's internal WASM handles letterboxing and normalization natively.
  */
 export function downscaleForDetector(
   fullCanvas: HTMLCanvasElement,
-  targetSize = 416
+  maxDimension = 1280
 ): HTMLCanvasElement {
-  const canvas = document.createElement('canvas');
-  canvas.width = targetSize;
-  canvas.height = targetSize;
-  const ctx = canvas.getContext('2d');
-  if (!ctx) return canvas;
-
-  // Fill black/neutral letterbox background
-  ctx.fillStyle = '#111827';
-  ctx.fillRect(0, 0, targetSize, targetSize);
-
   const sw = fullCanvas.width;
   const sh = fullCanvas.height;
-  const scale = Math.min(targetSize / sw, targetSize / sh);
+
+  if (sw <= maxDimension && sh <= maxDimension) {
+    return fullCanvas;
+  }
+
+  const scale = Math.min(maxDimension / sw, maxDimension / sh);
   const dw = Math.round(sw * scale);
   const dh = Math.round(sh * scale);
-  const dx = Math.round((targetSize - dw) / 2);
-  const dy = Math.round((targetSize - dh) / 2);
 
-  ctx.drawImage(fullCanvas, 0, 0, sw, sh, dx, dy, dw, dh);
+  const canvas = document.createElement('canvas');
+  canvas.width = dw;
+  canvas.height = dh;
+  const ctx = canvas.getContext('2d');
+  if (!ctx) return fullCanvas;
+
+  ctx.drawImage(fullCanvas, 0, 0, sw, sh, 0, 0, dw, dh);
   return canvas;
 }
 

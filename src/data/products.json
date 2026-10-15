@@ -480,8 +480,9 @@
     "brand": "Great Value",
     "category": "dairy",
     "detectorClasses": [
-      "milk jug",
-      "milk carton"
+      "milk",
+      "milk carton",
+      "milk jug"
     ],
     "parentName": "Milk",
     "ingredientName": null,
@@ -504,8 +505,9 @@
     "brand": "Great Value",
     "category": "dairy",
     "detectorClasses": [
-      "milk jug",
-      "milk carton"
+      "milk",
+      "milk carton",
+      "milk jug"
     ],
     "parentName": "Milk",
     "ingredientName": null,
@@ -528,8 +530,9 @@
     "brand": "Great Value",
     "category": "dairy",
     "detectorClasses": [
-      "milk jug",
-      "milk carton"
+      "milk",
+      "milk carton",
+      "milk jug"
     ],
     "parentName": "Milk",
     "ingredientName": null,
@@ -552,8 +555,9 @@
     "brand": "Great Value",
     "category": "dairy",
     "detectorClasses": [
-      "milk jug",
-      "milk carton"
+      "milk",
+      "milk carton",
+      "milk jug"
     ],
     "parentName": "Milk",
     "ingredientName": null,
@@ -578,7 +582,7 @@
     "brand": "Quaker",
     "category": "pantry",
     "detectorClasses": [
-      "oatmeal canister",
+      "oatmeal",
       "oats box"
     ],
     "parentName": "Oats",
@@ -604,7 +608,7 @@
     "brand": "Quaker",
     "category": "pantry",
     "detectorClasses": [
-      "oatmeal canister",
+      "oatmeal",
       "oats box"
     ],
     "parentName": "Oats",
@@ -631,7 +635,8 @@
     "brand": "Great Value",
     "category": "dairy",
     "detectorClasses": [
-      "egg carton"
+      "egg carton",
+      "eggs"
     ],
     "parentName": "Eggs",
     "ingredientName": "Egg",
@@ -655,7 +660,8 @@
     "brand": "Eggland's Best",
     "category": "dairy",
     "detectorClasses": [
-      "egg carton"
+      "egg carton",
+      "eggs"
     ],
     "parentName": "Eggs",
     "ingredientName": null,
@@ -678,6 +684,7 @@
     "brand": "Land O Lakes",
     "category": "dairy",
     "detectorClasses": [
+      "butter",
       "butter box"
     ],
     "parentName": "Butter",
@@ -700,6 +707,7 @@
     "brand": "Land O Lakes",
     "category": "dairy",
     "detectorClasses": [
+      "butter",
       "butter box"
     ],
     "parentName": "Butter",
@@ -721,6 +729,7 @@
     "brand": "Great Value",
     "category": "dairy",
     "detectorClasses": [
+      "butter",
       "butter box"
     ],
     "parentName": "Butter",
@@ -746,6 +755,7 @@
     "brand": "Kraft",
     "category": "dairy",
     "detectorClasses": [
+      "cheese",
       "cheese bag"
     ],
     "parentName": "Cheese",
@@ -771,6 +781,7 @@
     "brand": "Kraft",
     "category": "dairy",
     "detectorClasses": [
+      "cheese",
       "cheese bag"
     ],
     "parentName": "Cheese",
@@ -794,6 +805,7 @@
     "brand": "Great Value",
     "category": "dairy",
     "detectorClasses": [
+      "cheese",
       "cheese bag"
     ],
     "parentName": "Cheese",
@@ -932,6 +944,7 @@
     "brand": "Wonder",
     "category": "bakery",
     "detectorClasses": [
+      "bread",
       "bread bag"
     ],
     "parentName": "Bread",
@@ -955,6 +968,7 @@
     "brand": "Nature's Own",
     "category": "bakery",
     "detectorClasses": [
+      "bread",
       "bread bag"
     ],
     "parentName": "Bread",
@@ -978,6 +992,7 @@
     "brand": "Sara Lee",
     "category": "bakery",
     "detectorClasses": [
+      "bread",
       "bread bag"
     ],
     "parentName": "Bread",
@@ -1000,8 +1015,9 @@
     "brand": "Chobani",
     "category": "dairy",
     "detectorClasses": [
-      "yogurt tub",
-      "yogurt cup"
+      "yogurt",
+      "yogurt cup",
+      "yogurt tub"
     ],
     "parentName": "Yogurt",
     "ingredientName": "_cultured nonfat milk_, S. Thermophilus, L. Bulgaricus, L. Acidophilus, Bifidus, L. Casei, L. Rhamnosus",
@@ -1026,7 +1042,9 @@
     "brand": "Chobani",
     "category": "dairy",
     "detectorClasses": [
-      "yogurt cup"
+      "yogurt",
+      "yogurt cup",
+      "yogurt tub"
     ],
     "parentName": "Yogurt",
     "ingredientName": "Nonfat yogurt (cultured pasteurized nonfat milk), evaporated cane sugar, strawberries, water, fruit pectin, natural flavors, locust bean gum, fruit and vegetable juice concentrate (for color), lemon juice concentrate.",
@@ -1051,8 +1069,9 @@
     "brand": "Dannon",
     "category": "dairy",
     "detectorClasses": [
-      "yogurt tub",
-      "yogurt cup"
+      "yogurt",
+      "yogurt cup",
+      "yogurt tub"
     ],
     "parentName": "Yogurt",
     "ingredientName": "Cultured grade a reduced fat milk, cane sugar, water, pineapple, inulin, modified food starch, contains less than 1% of rolled white wheat flakes, red wheat bran, milk protein concentrate, kosher gelatin, rolled oats, natural flavor, agar agar, citric acid, sodium citrate, vitamin d3, turmeric (for color).",
@@ -1076,7 +1095,8 @@
     "brand": "Jif",
     "category": "pantry",
     "detectorClasses": [
-      "peanut-butter jar"
+      "peanut butter",
+      "peanut butter jar"
     ],
     "parentName": "Peanut Butter",
     "ingredientName": "ROASTED PEANUTS, SUGAR, 2% MOLASSES, FULL HYDROGENATED VEGETABLE OILS (RAPESEED, SOYBEAN), MONO AND DIGLYCERIDES, SALT.",
@@ -1100,7 +1120,8 @@
     "brand": "Jif",
     "category": "pantry",
     "detectorClasses": [
-      "peanut-butter jar"
+      "peanut butter",
+      "peanut butter jar"
     ],
     "parentName": "Peanut Butter",
     "ingredientName": "MADE FROM ROASTED PEANUTS AND SUGAR, CONTAINS 2% OR LESS OF: MOLASSES, FULLY HYDROGENATED VEGETABLE OILS (RAPESEED AND SOYBEAN), MONO AND DIGLYCERIDES, SALT.",
@@ -1122,7 +1143,8 @@
     "brand": "Skippy",
     "category": "pantry",
     "detectorClasses": [
-      "peanut-butter jar"
+      "peanut butter",
+      "peanut butter jar"
     ],
     "parentName": "Peanut Butter",
     "ingredientName": "roasted peanuts, sugar, hydrogenated vegetable oil (cottonseed, soybean and rapeseed oil) to prevent separation, salt.",
@@ -1144,7 +1166,8 @@
     "brand": "Bush's Best",
     "category": "pantry",
     "detectorClasses": [
-      "canned food"
+      "canned food",
+      "soup can"
     ],
     "parentName": "Canned Beans",
     "ingredientName": null,
@@ -1167,7 +1190,8 @@
     "brand": "Goya",
     "category": "pantry",
     "detectorClasses": [
-      "canned food"
+      "canned food",
+      "soup can"
     ],
     "parentName": "Canned Beans",
     "ingredientName": "BLACK BEANS, WATER AND SALT.",
@@ -1188,7 +1212,8 @@
     "brand": "Great Value",
     "category": "pantry",
     "detectorClasses": [
-      "canned food"
+      "canned food",
+      "soup can"
     ],
     "parentName": "Canned Beans",
     "ingredientName": "PREPARED BLACK BEANS, WATER, SALT.",
@@ -1350,6 +1375,7 @@
     "brand": "Cheerios",
     "category": "pantry",
     "detectorClasses": [
+      "cereal",
       "cereal box"
     ],
     "parentName": "Cereal",
@@ -1371,6 +1397,7 @@
     "brand": "Kellogg's",
     "category": "pantry",
     "detectorClasses": [
+      "cereal",
       "cereal box"
     ],
     "parentName": "Cereal",
@@ -1392,6 +1419,7 @@
     "brand": "General Mills",
     "category": "pantry",
     "detectorClasses": [
+      "cereal",
       "cereal box"
     ],
     "parentName": "Cereal",
@@ -1605,7 +1633,8 @@
     "brand": "Aiyino",
     "category": "dairy",
     "detectorClasses": [
-      "egg carton"
+      "egg carton",
+      "eggs"
     ],
     "parentName": "Eggs",
     "ingredientName": null,
@@ -1623,7 +1652,8 @@
     "brand": "Larace",
     "category": "dairy",
     "detectorClasses": [
-      "egg carton"
+      "egg carton",
+      "eggs"
     ],
     "parentName": "Eggs",
     "ingredientName": null,
@@ -1698,7 +1728,8 @@
     "brand": "TheLovely",
     "category": "dairy",
     "detectorClasses": [
-      "egg carton"
+      "egg carton",
+      "eggs"
     ],
     "parentName": "Eggs",
     "ingredientName": null,
@@ -1715,7 +1746,8 @@
     "brand": "PNTUTB",
     "category": "dairy",
     "detectorClasses": [
-      "egg carton"
+      "egg carton",
+      "eggs"
     ],
     "parentName": "Eggs",
     "ingredientName": null,
@@ -1733,7 +1765,8 @@
     "brand": "Zenana",
     "category": "dairy",
     "detectorClasses": [
-      "egg carton"
+      "egg carton",
+      "eggs"
     ],
     "parentName": "Eggs",
     "ingredientName": null,
@@ -1751,7 +1784,7 @@
     "brand": "ZBAR",
     "category": "pantry",
     "detectorClasses": [
-      "oatmeal canister",
+      "oatmeal",
       "oats box"
     ],
     "parentName": "Oats",
@@ -1810,7 +1843,8 @@
     "brand": "Sofra",
     "category": "dairy",
     "detectorClasses": [
-      "egg carton"
+      "egg carton",
+      "eggs"
     ],
     "parentName": "Eggs",
     "ingredientName": null,
@@ -1828,7 +1862,8 @@
     "brand": "TIYOMI",
     "category": "dairy",
     "detectorClasses": [
-      "egg carton"
+      "egg carton",
+      "eggs"
     ],
     "parentName": "Eggs",
     "ingredientName": null,
@@ -1864,7 +1899,8 @@
     "brand": "TIYOMI",
     "category": "dairy",
     "detectorClasses": [
-      "egg carton"
+      "egg carton",
+      "eggs"
     ],
     "parentName": "Eggs",
     "ingredientName": null,
@@ -1882,7 +1918,8 @@
     "brand": "Abcnature",
     "category": "dairy",
     "detectorClasses": [
-      "egg carton"
+      "egg carton",
+      "eggs"
     ],
     "parentName": "Eggs",
     "ingredientName": null,
@@ -1900,6 +1937,7 @@
     "brand": "Arrowhead Mills",
     "category": "pantry",
     "detectorClasses": [
+      "cereal",
       "cereal box"
     ],
     "parentName": "Cereal",
@@ -2031,7 +2069,8 @@
     "brand": "Zenana",
     "category": "dairy",
     "detectorClasses": [
-      "egg carton"
+      "egg carton",
+      "eggs"
     ],
     "parentName": "Eggs",
     "ingredientName": null,
@@ -2066,7 +2105,8 @@
     "brand": "Showmall",
     "category": "dairy",
     "detectorClasses": [
-      "egg carton"
+      "egg carton",
+      "eggs"
     ],
     "parentName": "Eggs",
     "ingredientName": null,

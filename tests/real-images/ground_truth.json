@@ -1,0 +1,616 @@
+{
+  "manifest": [
+    {
+      "id": "iso_01_apple",
+      "file": "iso_01_apple.jpg",
+      "category": "isolated",
+      "url": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=640&q=80",
+      "source": "Unsplash / @tuqa",
+      "ground_truth": [
+        {
+          "category": "apple",
+          "name": "Red Apple",
+          "box": [
+            100,
+            50,
+            540,
+            430
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "id": "iso_02_banana",
+      "file": "iso_02_banana.jpg",
+      "category": "isolated",
+      "url": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=640&q=80",
+      "source": "Unsplash / @rodrigods",
+      "ground_truth": [
+        {
+          "category": "banana",
+          "name": "Bananas",
+          "box": [
+            95,
+            190,
+            510,
+            520
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 640
+      }
+    },
+    {
+      "id": "iso_03_orange",
+      "file": "iso_03_orange.jpg",
+      "category": "isolated",
+      "url": "https://images.unsplash.com/photo-1582979512210-99b6a53386f9?w=640&q=80",
+      "source": "Unsplash / @photocandy",
+      "ground_truth": [
+        {
+          "category": "orange",
+          "name": "Navel Orange",
+          "box": [
+            120,
+            100,
+            520,
+            540
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      }
+    },
+    {
+      "id": "iso_04_milk",
+      "file": "iso_04_milk.jpg",
+      "category": "isolated",
+      "url": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=640&q=80",
+      "source": "Unsplash / @dhanyapraveen",
+      "ground_truth": [
+        {
+          "category": "milk jug",
+          "name": "Milk Bottle",
+          "box": [
+            150,
+            80,
+            480,
+            580
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      }
+    },
+    {
+      "id": "iso_05_bread",
+      "file": "iso_05_bread.jpg",
+      "category": "isolated",
+      "url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=640&q=80",
+      "source": "Unsplash / @wesual",
+      "ground_truth": [
+        {
+          "category": "bread bag",
+          "name": "Loaf of Bread",
+          "box": [
+            80,
+            120,
+            560,
+            540
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 426
+      }
+    },
+    {
+      "id": "iso_06_canned",
+      "file": "iso_06_canned.jpg",
+      "category": "isolated",
+      "url": "https://images.unsplash.com/photo-1534483509719-3feaee7c30da?w=640&q=80",
+      "source": "Unsplash / @inma_lesielle",
+      "ground_truth": [
+        {
+          "category": "canned food",
+          "name": "Canned Food",
+          "box": [
+            140,
+            100,
+            500,
+            560
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 427
+      }
+    },
+    {
+      "id": "iso_07_egg",
+      "file": "iso_07_egg.jpg",
+      "category": "isolated",
+      "url": "https://images.unsplash.com/photo-1587486913049-53fc88980cfc?w=640&q=80",
+      "source": "Unsplash / @jakubkapusnak",
+      "ground_truth": [
+        {
+          "category": "egg carton",
+          "name": "Egg Carton",
+          "box": [
+            60,
+            100,
+            580,
+            520
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 640
+      }
+    },
+    {
+      "id": "iso_08_cereal",
+      "file": "iso_08_cereal.jpg",
+      "category": "isolated",
+      "url": "https://images.unsplash.com/photo-1586816001966-79b736744398?w=640&q=80",
+      "source": "Unsplash / @thecreatives_exchange",
+      "ground_truth": [
+        {
+          "category": "cereal box",
+          "name": "Cereal Box",
+          "box": [
+            120,
+            80,
+            520,
+            580
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 427
+      }
+    },
+    {
+      "id": "mix_01_fruits",
+      "file": "mix_01_fruits.jpg",
+      "category": "mixed",
+      "url": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=640&q=80",
+      "source": "Unsplash / @sharonp",
+      "ground_truth": [
+        {
+          "category": "orange",
+          "name": "Oranges",
+          "box": [
+            50,
+            100,
+            300,
+            400
+          ]
+        },
+        {
+          "category": "banana",
+          "name": "Bananas",
+          "box": [
+            250,
+            150,
+            580,
+            480
+          ]
+        },
+        {
+          "category": "apple",
+          "name": "Apples",
+          "box": [
+            150,
+            300,
+            400,
+            550
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 427
+      }
+    },
+    {
+      "id": "mix_02_breakfast",
+      "file": "mix_02_breakfast.jpg",
+      "category": "mixed",
+      "url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=640&q=80",
+      "source": "Unsplash / @calumlewis",
+      "ground_truth": [
+        {
+          "category": "bread bag",
+          "name": "Bread / Toast",
+          "box": [
+            100,
+            150,
+            450,
+            500
+          ]
+        },
+        {
+          "category": "egg carton",
+          "name": "Eggs",
+          "box": [
+            350,
+            100,
+            580,
+            350
+          ]
+        },
+        {
+          "category": "butter box",
+          "name": "Butter",
+          "box": [
+            50,
+            250,
+            220,
+            420
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 640
+      }
+    },
+    {
+      "id": "mix_03_produce_haul",
+      "file": "mix_03_produce_haul.jpg",
+      "category": "mixed",
+      "url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=640&q=80",
+      "source": "Unsplash / @nixcreative",
+      "ground_truth": [
+        {
+          "category": "lettuce",
+          "name": "Lettuce Salad",
+          "box": [
+            50,
+            50,
+            550,
+            500
+          ]
+        },
+        {
+          "category": "tomato",
+          "name": "Tomatoes",
+          "box": [
+            100,
+            200,
+            300,
+            400
+          ]
+        },
+        {
+          "category": "cucumber",
+          "name": "Cucumber",
+          "box": [
+            300,
+            150,
+            500,
+            380
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 968
+      }
+    },
+    {
+      "id": "mix_04_table_groceries",
+      "file": "mix_04_table_groceries.jpg",
+      "category": "mixed",
+      "url": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=640&q=80",
+      "source": "Unsplash / @victoriakosmo",
+      "ground_truth": [
+        {
+          "category": "bell pepper",
+          "name": "Bell Peppers",
+          "box": [
+            80,
+            150,
+            280,
+            450
+          ]
+        },
+        {
+          "category": "tomato",
+          "name": "Tomatoes",
+          "box": [
+            250,
+            180,
+            420,
+            400
+          ]
+        },
+        {
+          "category": "broccoli",
+          "name": "Broccoli",
+          "box": [
+            380,
+            120,
+            580,
+            380
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "id": "mix_05_citrus_bowl",
+      "file": "mix_05_citrus_bowl.jpg",
+      "category": "mixed",
+      "url": "https://images.unsplash.com/photo-1557800636-894a64c1696f?w=640&q=80",
+      "source": "Unsplash / @orlova_maria",
+      "ground_truth": [
+        {
+          "category": "orange",
+          "name": "Oranges",
+          "box": [
+            100,
+            150,
+            350,
+            450
+          ]
+        },
+        {
+          "category": "lemon",
+          "name": "Lemons",
+          "box": [
+            320,
+            180,
+            550,
+            480
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 800
+      }
+    },
+    {
+      "id": "mix_06_berries",
+      "file": "mix_06_berries.jpg",
+      "category": "mixed",
+      "url": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=640&q=80",
+      "source": "Unsplash / @tinaftsn",
+      "ground_truth": [
+        {
+          "category": "strawberry",
+          "name": "Strawberries",
+          "box": [
+            50,
+            80,
+            580,
+            520
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 427
+      }
+    },
+    {
+      "id": "mix_07_pantry_cans",
+      "file": "mix_07_pantry_cans.jpg",
+      "category": "mixed",
+      "url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=640&q=80",
+      "source": "Unsplash / @enginakyurt",
+      "ground_truth": [
+        {
+          "category": "canned food",
+          "name": "Canned Beans / Soup",
+          "box": [
+            100,
+            150,
+            300,
+            500
+          ]
+        },
+        {
+          "category": "pasta box",
+          "name": "Pasta Box",
+          "box": [
+            320,
+            120,
+            550,
+            520
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 448
+      }
+    },
+    {
+      "id": "mix_08_baking_station",
+      "file": "mix_08_baking_station.jpg",
+      "category": "mixed",
+      "url": "https://images.unsplash.com/photo-1587241321921-91a834d6d191?w=640&q=80",
+      "source": "Unsplash / @moniqa",
+      "ground_truth": [
+        {
+          "category": "egg carton",
+          "name": "Eggs",
+          "box": [
+            80,
+            200,
+            300,
+            450
+          ]
+        },
+        {
+          "category": "milk jug",
+          "name": "Milk Bottle",
+          "box": [
+            320,
+            100,
+            520,
+            480
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 427
+      }
+    },
+    {
+      "id": "occ_01_fridge_shelf",
+      "file": "occ_01_fridge_shelf.jpg",
+      "category": "occluded",
+      "url": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?w=640&q=80",
+      "source": "Unsplash / @devinbaker",
+      "ground_truth": [
+        {
+          "category": "milk jug",
+          "name": "Milk / Dairy Beverage",
+          "box": [
+            100,
+            120,
+            350,
+            550
+          ]
+        },
+        {
+          "category": "yogurt tub",
+          "name": "Yogurt / Condiment",
+          "box": [
+            360,
+            200,
+            550,
+            480
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "id": "occ_02_produce_bin",
+      "file": "occ_02_produce_bin.jpg",
+      "category": "occluded",
+      "url": "https://images.unsplash.com/photo-1590779033100-9f60a05a013d?w=640&q=80",
+      "source": "Unsplash / @scottwebb",
+      "ground_truth": [
+        {
+          "category": "bell pepper",
+          "name": "Bell Peppers (Stacked)",
+          "box": [
+            50,
+            80,
+            350,
+            500
+          ]
+        },
+        {
+          "category": "tomato",
+          "name": "Tomatoes",
+          "box": [
+            300,
+            100,
+            580,
+            480
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      }
+    },
+    {
+      "id": "occ_03_crowded_basket",
+      "file": "occ_03_crowded_basket.jpg",
+      "category": "occluded",
+      "url": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=640&q=80",
+      "source": "Unsplash / @alexbemore",
+      "ground_truth": [
+        {
+          "category": "cereal box",
+          "name": "Boxed Goods",
+          "box": [
+            80,
+            100,
+            400,
+            500
+          ]
+        },
+        {
+          "category": "snack bag",
+          "name": "Bagged Snack",
+          "box": [
+            350,
+            150,
+            580,
+            480
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "id": "occ_04_crowded_pantry",
+      "file": "occ_04_crowded_pantry.jpg",
+      "category": "occluded",
+      "url": "https://images.unsplash.com/photo-1584473457406-6240486418e9?w=640&q=80",
+      "source": "Unsplash / @marjanblan",
+      "ground_truth": [
+        {
+          "category": "canned food",
+          "name": "Canned Food",
+          "box": [
+            100,
+            150,
+            320,
+            450
+          ]
+        },
+        {
+          "category": "pasta box",
+          "name": "Boxed Pasta",
+          "box": [
+            320,
+            100,
+            520,
+            480
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 960
+      }
+    }
+  ],
+  "totalImages": 20,
+  "downloaded": 20
+}

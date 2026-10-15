@@ -48,9 +48,9 @@ def sha256_file(filepath: str) -> str:
     return hasher.hexdigest()
 
 
-def verify_onnx(onnx_path: str, num_classes: int) -> dict:
+def verify_onnx(onnx_path: str, num_classes: int, imgsz: int = 640) -> dict:
     """Verify ONNX model using onnxruntime with synthetic input."""
-    print(f"Running verification gate on {onnx_path}...")
+    print(f"Running verification gate on {onnx_path} at resolution {imgsz}x{imgsz}...")
     opts = ort.SessionOptions()
     opts.inter_op_num_threads = 1
     opts.intra_op_num_threads = 1
@@ -61,8 +61,8 @@ def verify_onnx(onnx_path: str, num_classes: int) -> dict:
     print(f"Input: {input_info.name} shape={input_info.shape} type={input_info.type}")
     print(f"Output: {output_info.name} shape={output_info.shape} type={output_info.type}")
     
-    # Run synthetic forward check (batch=1, channels=3, h=416, w=416)
-    dummy_input = np.random.uniform(0.0, 1.0, (1, 3, 416, 416)).astype(np.float32)
+    # Run synthetic forward check (batch=1, channels=3, h=imgsz, w=imgsz)
+    dummy_input = np.random.uniform(0.0, 1.0, (1, 3, imgsz, imgsz)).astype(np.float32)
     outputs = session.run([output_info.name], {input_info.name: dummy_input})
     out = outputs[0]
     
@@ -95,7 +95,7 @@ def verify_onnx(onnx_path: str, num_classes: int) -> dict:
     }
 
 
-def export_model(out_path: str = DEFAULT_OUTPUT):
+def export_model(out_path: str = DEFAULT_OUTPUT, imgsz: int = 640):
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     embeddings_path = os.path.join(CACHE_DIR, "grocery_prompt_embeddings.npz")
     export_mode = "detection"
@@ -109,7 +109,7 @@ def export_model(out_path: str = DEFAULT_OUTPUT):
     prompt_model.save_prompt_embeddings(embeddings_path)
     print(f"Saved prompt embeddings to {embeddings_path}")
     
-    print("\n=== Step 2: Exporting Model to ONNX ===")
+    print(f"\n=== Step 2: Exporting Model to ONNX @ {imgsz}x{imgsz} ===")
     exported_onnx_path = None
     
     # Primary path: Detection-only export using yoloe-26n.yaml
@@ -117,7 +117,7 @@ def export_model(out_path: str = DEFAULT_OUTPUT):
         print("Attempting primary detection-only export...")
         det_model = YOLOE("yoloe-26n.yaml").load(base_seg_pt)
         det_model.load_prompt_embeddings(embeddings_path)
-        det_onnx = det_model.export(format="onnx", imgsz=416, simplify=True)
+        det_onnx = det_model.export(format="onnx", imgsz=imgsz, simplify=True)
         exported_onnx_path = det_onnx
         export_mode = "detection"
         print(f"Primary detection export succeeded: {exported_onnx_path}")
@@ -127,7 +127,7 @@ def export_model(out_path: str = DEFAULT_OUTPUT):
         try:
             seg_model = YOLOE(base_seg_pt)
             seg_model.load_prompt_embeddings(embeddings_path)
-            seg_onnx = seg_model.export(format="onnx", imgsz=416, simplify=True)
+            seg_onnx = seg_model.export(format="onnx", imgsz=imgsz, simplify=True)
             exported_onnx_path = seg_onnx
             export_mode = "segmentation-fallback"
             print(f"Segmentation fallback export succeeded: {exported_onnx_path}")
@@ -138,7 +138,7 @@ def export_model(out_path: str = DEFAULT_OUTPUT):
     assert exported_onnx_path and os.path.exists(exported_onnx_path), "Exported ONNX file missing!"
     
     print("\n=== Step 3: Verification Gate ===")
-    verif_info = verify_onnx(exported_onnx_path, len(PROMPTS))
+    verif_info = verify_onnx(exported_onnx_path, len(PROMPTS), imgsz=imgsz)
     
     print("\n=== Step 4: Staging Model & Sidecar Metadata ===")
     shutil.copy2(exported_onnx_path, out_path)
@@ -150,7 +150,7 @@ def export_model(out_path: str = DEFAULT_OUTPUT):
     
     meta = {
         "modelName": "groceries.onnx",
-        "inputSize": 416,
+        "inputSize": imgsz,
         "numClasses": len(PROMPTS),
         "classes": PROMPTS,
         "produceClasses": sorted(list(PRODUCE_CLASSES)),
@@ -172,6 +172,7 @@ def export_model(out_path: str = DEFAULT_OUTPUT):
     print(f"\nModel exported successfully!")
     print(f"- Output ONNX: {out_path} ({file_size_mb:.2f} MB)")
     print(f"- Metadata: {meta_path}")
+    print(f"- Input Size: {imgsz}x{imgsz}")
     print(f"- Export Mode: {export_mode}")
     print(f"- SHA256: {model_sha256}")
     print(f"- Verification: PASSED ✅")
@@ -180,5 +181,6 @@ def export_model(out_path: str = DEFAULT_OUTPUT):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Export YOLOE grocery detector to ONNX")
     parser.add_argument("--out", default=DEFAULT_OUTPUT, help="Destination ONNX path")
+    parser.add_argument("--imgsz", type=int, default=640, help="Input image dimension (default: 640)")
     args = parser.parse_args()
-    export_model(args.out)
+    export_model(args.out, imgsz=args.imgsz)

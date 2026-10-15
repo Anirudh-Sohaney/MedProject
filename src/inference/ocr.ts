@@ -39,7 +39,7 @@ export async function terminateOcrWorker(): Promise<void> {
 }
 
 export interface OcrBudget {
-  maxCrops: number; // default 4
+  maxCrops: number; // default 20 (evaluate all readable packages within time budget)
   maxMs: number; // default 8000 ms (8s)
 }
 
@@ -50,7 +50,7 @@ export interface OcrBudget {
 export async function* readLabels(
   detections: Detection[],
   fullResCanvas: HTMLCanvasElement,
-  budget: OcrBudget = { maxCrops: 4, maxMs: 8000 }
+  budget: OcrBudget = { maxCrops: 20, maxMs: 8000 }
 ): AsyncGenerator<{
   type: 'ocr-start' | 'ocr-end';
   detectionId: string;

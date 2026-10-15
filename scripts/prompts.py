@@ -1,7 +1,7 @@
 """
 Vocabulary of visible grocery object types for YOLOE prompt embeddings.
 Visible packaging / species types only, never SKU or product brand names.
-Total prompts count: 42 (within 35–50 required range).
+Total prompts count: 44 (within 35–50 required range).
 """
 
 import sys
@@ -27,33 +27,35 @@ PROMPTS = [
     "strawberry",
     "broccoli",
     "lettuce",
-    # Packaged (26 classes)
+    # Packaged Groceries (28 classes) - Natural, high-affinity visual nouns
+    "milk",
     "milk jug",
     "milk carton",
+    "cereal",
     "cereal box",
-    "oatmeal canister",
+    "oatmeal",
     "oats box",
+    "yogurt",
     "yogurt tub",
     "yogurt cup",
+    "eggs",
     "egg carton",
+    "bread",
     "bread bag",
     "pasta box",
     "rice bag",
     "canned food",
-    "peanut-butter jar",
-    "juice bottle",
-    "butter box",
-    "cheese bag",
-    "frozen-food bag",
-    "snack bag",
-    "salad bag",
-    "coffee bag",
     "soup can",
     "soda can",
+    "peanut butter",
+    "peanut butter jar",
+    "juice bottle",
     "water bottle",
     "sauce bottle",
-    "cookie box",
-    "cracker box",
+    "butter",
+    "butter box",
+    "cheese",
+    "cheese bag",
 ]
 
 PRODUCE_CLASSES = {

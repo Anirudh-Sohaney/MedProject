@@ -92,7 +92,7 @@ export const ScanProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
       try {
         const fullResCanvas = await decodeFileToCanvas(file);
-        const detectorCanvas = downscaleForDetector(fullResCanvas, 416);
+        const detectorCanvas = downscaleForDetector(fullResCanvas, 1280);
 
         setSourceImage({
           objectUrl,
