@@ -7,13 +7,13 @@ export function getOpenRouterApiKey(): string {
   const stored = typeof window !== 'undefined' ? localStorage.getItem('openrouter_api_key') : null;
   if (stored && stored.trim().length > 0) return stored.trim();
 
-  // Vite env
-  const viteKey = import.meta.env?.VITE_OPENROUTER_API_KEY;
-  if (viteKey && viteKey.trim().length > 0) return viteKey.trim();
-
   if (typeof __DEFAULT_OPENROUTER_KEY__ !== 'undefined' && __DEFAULT_OPENROUTER_KEY__) {
     return __DEFAULT_OPENROUTER_KEY__;
   }
+
+  // Vite env
+  const viteKey = import.meta.env?.VITE_OPENROUTER_API_KEY;
+  if (viteKey) return viteKey;
 
   return '';
 }
