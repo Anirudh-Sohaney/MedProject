@@ -4,11 +4,25 @@ import { BoxCoords, Detection } from '@/types/contracts';
 export interface DetectorMetadata {
   modelName: string;
   inputSize: number;
-  classes: string[];
-  produceClasses: string[];
-  labelMapIndex: Record<string, string>;
-  exportMode: string;
+  classes?: string[] | number;
+  produceClasses?: string[];
+  labelMapIndex?: Record<string, string>;
+  exportMode?: string;
 }
+
+export const COCO_CLASSES = [
+  'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat',
+  'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat',
+  'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack',
+  'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball',
+  'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket',
+  'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple',
+  'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake',
+  'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop',
+  'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink',
+  'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier',
+  'toothbrush'
+];
 
 export interface LoadedDetector {
   predict: (
@@ -122,12 +136,15 @@ export async function loadDetector(options?: {
     const metaResp = await fetch(metaUrl);
     if (!metaResp.ok) throw new Error(`HTTP ${metaResp.status} fetching model metadata`);
     meta = await metaResp.json();
+    if (!meta.labelMapIndex) {
+      meta.labelMapIndex = {};
+    }
   } catch (err) {
     console.warn('Metadata fetch failed, using built-in defaults:', err);
     meta = {
       modelName: 'grocery_detector.onnx',
       inputSize: 640,
-      classes: Array.from(PRODUCE_SET),
+      classes: COCO_CLASSES,
       produceClasses: Array.from(PRODUCE_SET),
       labelMapIndex: {},
       exportMode: 'detection',
@@ -197,11 +214,12 @@ export async function loadDetector(options?: {
         y2: Math.round(normBox.y2 * fullHeight),
       };
 
-      // Get label name from meta or results
+      // Get label name from meta or results safely
       const className =
-        meta.classes[b.cls] ||
-        meta.labelMapIndex[String(b.cls)] ||
         b.name ||
+        (Array.isArray(meta.classes) ? meta.classes[b.cls] : undefined) ||
+        meta.labelMapIndex?.[String(b.cls)] ||
+        COCO_CLASSES[b.cls] ||
         `item_${b.cls}`;
 
       const isProduce = PRODUCE_SET.has(className.toLowerCase());
