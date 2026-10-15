@@ -1,0 +1,9 @@
+{
+  "modelName": "grocery_detector.onnx",
+  "architecture": "YOLO11n",
+  "inputSize": 640,
+  "classes": 80,
+  "confidenceThreshold": 0.15,
+  "iouThreshold": 0.50,
+  "task": "grocery-object-detection"
+}

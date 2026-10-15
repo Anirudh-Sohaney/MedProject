@@ -122,6 +122,7 @@ export const ProductRow: React.FC<ProductRowProps> = ({ match, onCorrect, onHove
           <ConfidenceBadge
             confidence={match.confidence}
             detectorScore={match.detectorScore}
+            classifierScore={match.classifierScore}
             ocrMatch={match.ocrMatch}
             candidateMargin={match.candidateMargin}
             isProduce={match.category === 'produce'}

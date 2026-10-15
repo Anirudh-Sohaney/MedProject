@@ -4,6 +4,7 @@ import { getConfidenceTier } from '@/inference/confidence';
 interface ConfidenceBadgeProps {
   confidence: number;
   detectorScore?: number;
+  classifierScore?: number;
   ocrMatch?: number;
   candidateMargin?: number;
   isProduce?: boolean;
@@ -12,6 +13,7 @@ interface ConfidenceBadgeProps {
 export const ConfidenceBadge: React.FC<ConfidenceBadgeProps> = ({
   confidence,
   detectorScore,
+  classifierScore,
   ocrMatch,
   candidateMargin,
   isProduce,
@@ -72,7 +74,8 @@ export const ConfidenceBadge: React.FC<ConfidenceBadgeProps> = ({
           title={tooltip}
         >
           <span>det: {Math.round(detectorScore * 100)}%</span>
-          {!isProduce && ocrMatch !== undefined && <span>· ocr: {Math.round(ocrMatch * 100)}%</span>}
+          {classifierScore !== undefined && <span>· cv: {Math.round(classifierScore * 100)}%</span>}
+          {!isProduce && ocrMatch !== undefined && ocrMatch > 0 && <span>· ocr: {Math.round(ocrMatch * 100)}%</span>}
         </span>
       )}
     </div>

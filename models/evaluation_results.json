@@ -1,0 +1,629 @@
+{
+  "evaluation_summary": {
+    "total_test_samples": 496,
+    "top1_accuracy": 93.75,
+    "top3_accuracy": 98.99,
+    "unknown_samples_count": 9,
+    "unknown_rejection_rate_at_0_70": 66.67,
+    "unknown_high_confidence_fp_count": 3
+  },
+  "per_class": {
+    "apple_gala": {
+      "total": 17,
+      "top1_correct": 17,
+      "top1_acc": 100.0,
+      "top3_correct": 17,
+      "top3_acc": 100.0
+    },
+    "apple_golden_delicious": {
+      "total": 15,
+      "top1_correct": 13,
+      "top1_acc": 86.7,
+      "top3_correct": 15,
+      "top3_acc": 100.0
+    },
+    "apple_granny_smith": {
+      "total": 17,
+      "top1_correct": 16,
+      "top1_acc": 94.1,
+      "top3_correct": 17,
+      "top3_acc": 100.0
+    },
+    "apple_pink_lady": {
+      "total": 18,
+      "top1_correct": 17,
+      "top1_acc": 94.4,
+      "top3_correct": 18,
+      "top3_acc": 100.0
+    },
+    "apple_red_delicious": {
+      "total": 13,
+      "top1_correct": 12,
+      "top1_acc": 92.3,
+      "top3_correct": 13,
+      "top3_acc": 100.0
+    },
+    "avocado_hass": {
+      "total": 13,
+      "top1_correct": 13,
+      "top1_acc": 100.0,
+      "top3_correct": 13,
+      "top3_acc": 100.0
+    },
+    "banana": {
+      "total": 12,
+      "top1_correct": 12,
+      "top1_acc": 100.0,
+      "top3_correct": 12,
+      "top3_acc": 100.0
+    },
+    "beans_black_canned": {
+      "total": 6,
+      "top1_correct": 5,
+      "top1_acc": 83.3,
+      "top3_correct": 6,
+      "top3_acc": 100.0
+    },
+    "bell_pepper_green": {
+      "total": 8,
+      "top1_correct": 7,
+      "top1_acc": 87.5,
+      "top3_correct": 8,
+      "top3_acc": 100.0
+    },
+    "bell_pepper_red": {
+      "total": 11,
+      "top1_correct": 11,
+      "top1_acc": 100.0,
+      "top3_correct": 11,
+      "top3_acc": 100.0
+    },
+    "bread_sliced_wheat": {
+      "total": 8,
+      "top1_correct": 8,
+      "top1_acc": 100.0,
+      "top3_correct": 8,
+      "top3_acc": 100.0
+    },
+    "carrot": {
+      "total": 14,
+      "top1_correct": 12,
+      "top1_acc": 85.7,
+      "top3_correct": 13,
+      "top3_acc": 92.9
+    },
+    "cereal_cheerios": {
+      "total": 2,
+      "top1_correct": 1,
+      "top1_acc": 50.0,
+      "top3_correct": 1,
+      "top3_acc": 50.0
+    },
+    "cereal_honey_nut_cheerios": {
+      "total": 1,
+      "top1_correct": 1,
+      "top1_acc": 100.0,
+      "top3_correct": 1,
+      "top3_acc": 100.0
+    },
+    "cheese_shredded_cheddar": {
+      "total": 4,
+      "top1_correct": 4,
+      "top1_acc": 100.0,
+      "top3_correct": 4,
+      "top3_acc": 100.0
+    },
+    "cookies_oreo_original": {
+      "total": 5,
+      "top1_correct": 3,
+      "top1_acc": 60.0,
+      "top3_correct": 4,
+      "top3_acc": 80.0
+    },
+    "cucumber": {
+      "total": 10,
+      "top1_correct": 9,
+      "top1_acc": 90.0,
+      "top3_correct": 10,
+      "top3_acc": 100.0
+    },
+    "eggs_large_white": {
+      "total": 5,
+      "top1_correct": 5,
+      "top1_acc": 100.0,
+      "top3_correct": 5,
+      "top3_acc": 100.0
+    },
+    "garlic": {
+      "total": 7,
+      "top1_correct": 7,
+      "top1_acc": 100.0,
+      "top3_correct": 7,
+      "top3_acc": 100.0
+    },
+    "ginger": {
+      "total": 6,
+      "top1_correct": 6,
+      "top1_acc": 100.0,
+      "top3_correct": 6,
+      "top3_acc": 100.0
+    },
+    "juice_bravo_orange": {
+      "total": 11,
+      "top1_correct": 11,
+      "top1_acc": 100.0,
+      "top3_correct": 11,
+      "top3_acc": 100.0
+    },
+    "juice_cranberry_cocktail": {
+      "total": 3,
+      "top1_correct": 2,
+      "top1_acc": 66.7,
+      "top3_correct": 3,
+      "top3_acc": 100.0
+    },
+    "juice_tropicana_apple": {
+      "total": 9,
+      "top1_correct": 9,
+      "top1_acc": 100.0,
+      "top3_correct": 9,
+      "top3_acc": 100.0
+    },
+    "juice_tropicana_orange": {
+      "total": 7,
+      "top1_correct": 7,
+      "top1_acc": 100.0,
+      "top3_correct": 7,
+      "top3_acc": 100.0
+    },
+    "kiwi": {
+      "total": 13,
+      "top1_correct": 13,
+      "top1_acc": 100.0,
+      "top3_correct": 13,
+      "top3_acc": 100.0
+    },
+    "lemon": {
+      "total": 13,
+      "top1_correct": 11,
+      "top1_acc": 84.6,
+      "top3_correct": 13,
+      "top3_acc": 100.0
+    },
+    "lime": {
+      "total": 11,
+      "top1_correct": 10,
+      "top1_acc": 90.9,
+      "top3_correct": 11,
+      "top3_acc": 100.0
+    },
+    "mango": {
+      "total": 11,
+      "top1_correct": 10,
+      "top1_acc": 90.9,
+      "top3_correct": 11,
+      "top3_acc": 100.0
+    },
+    "melon_watermelon": {
+      "total": 16,
+      "top1_correct": 16,
+      "top1_acc": 100.0,
+      "top3_correct": 16,
+      "top3_acc": 100.0
+    },
+    "milk_2pct": {
+      "total": 12,
+      "top1_correct": 12,
+      "top1_acc": 100.0,
+      "top3_correct": 12,
+      "top3_acc": 100.0
+    },
+    "milk_eco_organic": {
+      "total": 9,
+      "top1_correct": 9,
+      "top1_acc": 100.0,
+      "top3_correct": 9,
+      "top3_acc": 100.0
+    },
+    "milk_oat": {
+      "total": 9,
+      "top1_correct": 9,
+      "top1_acc": 100.0,
+      "top3_correct": 9,
+      "top3_acc": 100.0
+    },
+    "milk_soy": {
+      "total": 9,
+      "top1_correct": 9,
+      "top1_acc": 100.0,
+      "top3_correct": 9,
+      "top3_acc": 100.0
+    },
+    "milk_whole": {
+      "total": 11,
+      "top1_correct": 11,
+      "top1_acc": 100.0,
+      "top3_correct": 11,
+      "top3_acc": 100.0
+    },
+    "oats_quaker_old_fashioned": {
+      "total": 5,
+      "top1_correct": 1,
+      "top1_acc": 20.0,
+      "top3_correct": 5,
+      "top3_acc": 100.0
+    },
+    "oats_quaker_quick": {
+      "total": 5,
+      "top1_correct": 4,
+      "top1_acc": 80.0,
+      "top3_correct": 5,
+      "top3_acc": 100.0
+    },
+    "onion_yellow": {
+      "total": 10,
+      "top1_correct": 9,
+      "top1_acc": 90.0,
+      "top3_correct": 10,
+      "top3_acc": 100.0
+    },
+    "orange_navel": {
+      "total": 17,
+      "top1_correct": 17,
+      "top1_acc": 100.0,
+      "top3_correct": 17,
+      "top3_acc": 100.0
+    },
+    "pasta_barilla_spaghetti": {
+      "total": 5,
+      "top1_correct": 4,
+      "top1_acc": 80.0,
+      "top3_correct": 5,
+      "top3_acc": 100.0
+    },
+    "peach": {
+      "total": 12,
+      "top1_correct": 12,
+      "top1_acc": 100.0,
+      "top3_correct": 12,
+      "top3_acc": 100.0
+    },
+    "peanut_butter_jif_creamy": {
+      "total": 5,
+      "top1_correct": 5,
+      "top1_acc": 100.0,
+      "top3_correct": 5,
+      "top3_acc": 100.0
+    },
+    "peanut_butter_skippy_creamy": {
+      "total": 5,
+      "top1_correct": 4,
+      "top1_acc": 80.0,
+      "top3_correct": 4,
+      "top3_acc": 80.0
+    },
+    "pineapple": {
+      "total": 8,
+      "top1_correct": 8,
+      "top1_acc": 100.0,
+      "top3_correct": 8,
+      "top3_acc": 100.0
+    },
+    "plum": {
+      "total": 8,
+      "top1_correct": 8,
+      "top1_acc": 100.0,
+      "top3_correct": 8,
+      "top3_acc": 100.0
+    },
+    "potato_russet": {
+      "total": 6,
+      "top1_correct": 6,
+      "top1_acc": 100.0,
+      "top3_correct": 6,
+      "top3_acc": 100.0
+    },
+    "soup_campbells_chicken_noodle": {
+      "total": 3,
+      "top1_correct": 2,
+      "top1_acc": 66.7,
+      "top3_correct": 3,
+      "top3_acc": 100.0
+    },
+    "soup_campbells_tomato": {
+      "total": 5,
+      "top1_correct": 2,
+      "top1_acc": 40.0,
+      "top3_correct": 4,
+      "top3_acc": 80.0
+    },
+    "tomato_roma": {
+      "total": 16,
+      "top1_correct": 16,
+      "top1_acc": 100.0,
+      "top3_correct": 16,
+      "top3_acc": 100.0
+    },
+    "tomato_vine": {
+      "total": 13,
+      "top1_correct": 13,
+      "top1_acc": 100.0,
+      "top3_correct": 13,
+      "top3_acc": 100.0
+    },
+    "yogurt_chobani_greek_plain": {
+      "total": 15,
+      "top1_correct": 14,
+      "top1_acc": 93.3,
+      "top3_correct": 15,
+      "top3_acc": 100.0
+    },
+    "yogurt_strawberry": {
+      "total": 13,
+      "top1_correct": 13,
+      "top1_acc": 100.0,
+      "top3_correct": 13,
+      "top3_acc": 100.0
+    },
+    "yogurt_vanilla": {
+      "total": 9,
+      "top1_correct": 9,
+      "top1_acc": 100.0,
+      "top3_correct": 9,
+      "top3_acc": 100.0
+    }
+  },
+  "confusion_cases": [
+    {
+      "ground_truth": "apple_golden_delicious",
+      "predicted": "apple_granny_smith",
+      "confidence": 0.704,
+      "file": "Golden-Delicious_040.jpg"
+    },
+    {
+      "ground_truth": "apple_golden_delicious",
+      "predicted": "apple_granny_smith",
+      "confidence": 0.844,
+      "file": "Golden-Delicious_018.jpg"
+    },
+    {
+      "ground_truth": "apple_granny_smith",
+      "predicted": "mango",
+      "confidence": 0.854,
+      "file": "Granny-Smith_055.jpg"
+    },
+    {
+      "ground_truth": "apple_pink_lady",
+      "predicted": "apple_gala",
+      "confidence": 0.976,
+      "file": "Pink-Lady_001.jpg"
+    },
+    {
+      "ground_truth": "apple_red_delicious",
+      "predicted": "tomato_roma",
+      "confidence": 0.895,
+      "file": "Red-Delicious_048.jpg"
+    },
+    {
+      "ground_truth": "beans_black_canned",
+      "predicted": "soup_campbells_tomato",
+      "confidence": 0.534,
+      "file": "9.jpg"
+    },
+    {
+      "ground_truth": "bell_pepper_green",
+      "predicted": "lime",
+      "confidence": 0.396,
+      "file": "Green-Bell-Pepper_003.jpg"
+    },
+    {
+      "ground_truth": "carrot",
+      "predicted": "cucumber",
+      "confidence": 0.452,
+      "file": "Carrots_018.jpg"
+    },
+    {
+      "ground_truth": "carrot",
+      "predicted": "bread_sliced_wheat",
+      "confidence": 0.926,
+      "file": "2.jpg"
+    },
+    {
+      "ground_truth": "cereal_cheerios",
+      "predicted": "cookies_oreo_original",
+      "confidence": 0.433,
+      "file": "7.jpg"
+    },
+    {
+      "ground_truth": "cookies_oreo_original",
+      "predicted": "cheese_shredded_cheddar",
+      "confidence": 0.458,
+      "file": "24.jpg"
+    },
+    {
+      "ground_truth": "cookies_oreo_original",
+      "predicted": "bread_sliced_wheat",
+      "confidence": 0.873,
+      "file": "19.jpg"
+    },
+    {
+      "ground_truth": "cucumber",
+      "predicted": "ginger",
+      "confidence": 0.23,
+      "file": "Cucumber_004.jpg"
+    },
+    {
+      "ground_truth": "juice_cranberry_cocktail",
+      "predicted": "peanut_butter_skippy_creamy",
+      "confidence": 0.366,
+      "file": "10.jpg"
+    },
+    {
+      "ground_truth": "lemon",
+      "predicted": "orange_navel",
+      "confidence": 0.798,
+      "file": "Lemon_010.jpg"
+    },
+    {
+      "ground_truth": "lemon",
+      "predicted": "orange_navel",
+      "confidence": 0.853,
+      "file": "Lemon_016.jpg"
+    },
+    {
+      "ground_truth": "lime",
+      "predicted": "apple_granny_smith",
+      "confidence": 0.639,
+      "file": "Lime_030.jpg"
+    },
+    {
+      "ground_truth": "mango",
+      "predicted": "avocado_hass",
+      "confidence": 0.865,
+      "file": "Mango_031.jpg"
+    },
+    {
+      "ground_truth": "oats_quaker_old_fashioned",
+      "predicted": "beans_black_canned",
+      "confidence": 0.492,
+      "file": "25.jpg"
+    },
+    {
+      "ground_truth": "oats_quaker_old_fashioned",
+      "predicted": "oats_quaker_quick",
+      "confidence": 0.81,
+      "file": "14.jpg"
+    },
+    {
+      "ground_truth": "oats_quaker_old_fashioned",
+      "predicted": "oats_quaker_quick",
+      "confidence": 0.911,
+      "file": "24.jpg"
+    },
+    {
+      "ground_truth": "oats_quaker_old_fashioned",
+      "predicted": "oats_quaker_quick",
+      "confidence": 0.795,
+      "file": "12.jpg"
+    },
+    {
+      "ground_truth": "oats_quaker_quick",
+      "predicted": "oats_quaker_old_fashioned",
+      "confidence": 0.492,
+      "file": "14.jpg"
+    },
+    {
+      "ground_truth": "onion_yellow",
+      "predicted": "kiwi",
+      "confidence": 0.506,
+      "file": "Yellow-Onion_007.jpg"
+    },
+    {
+      "ground_truth": "pasta_barilla_spaghetti",
+      "predicted": "oats_quaker_quick",
+      "confidence": 0.586,
+      "file": "1.jpg"
+    },
+    {
+      "ground_truth": "peanut_butter_skippy_creamy",
+      "predicted": "peanut_butter_jif_creamy",
+      "confidence": 0.397,
+      "file": "24.jpg"
+    },
+    {
+      "ground_truth": "soup_campbells_chicken_noodle",
+      "predicted": "soup_campbells_tomato",
+      "confidence": 0.945,
+      "file": "10.jpg"
+    },
+    {
+      "ground_truth": "soup_campbells_tomato",
+      "predicted": "peanut_butter_jif_creamy",
+      "confidence": 0.381,
+      "file": "23.jpg"
+    },
+    {
+      "ground_truth": "soup_campbells_tomato",
+      "predicted": "milk_whole",
+      "confidence": 0.394,
+      "file": "28.jpg"
+    },
+    {
+      "ground_truth": "soup_campbells_tomato",
+      "predicted": "yogurt_strawberry",
+      "confidence": 0.314,
+      "file": "16.jpg"
+    },
+    {
+      "ground_truth": "yogurt_chobani_greek_plain",
+      "predicted": "milk_oat",
+      "confidence": 0.766,
+      "file": "Arla-Natural-Yoghurt_014.jpg"
+    }
+  ],
+  "unknown_evaluations": [
+    {
+      "file": "unknown_03.jpg",
+      "top_predicted_class": "bread_sliced_wheat",
+      "confidence": 0.464,
+      "rejected_at_threshold_0_60": true,
+      "rejected_at_threshold_0_70": true
+    },
+    {
+      "file": "unknown_06.jpg",
+      "top_predicted_class": "melon_watermelon",
+      "confidence": 0.545,
+      "rejected_at_threshold_0_60": true,
+      "rejected_at_threshold_0_70": true
+    },
+    {
+      "file": "unknown_08.jpg",
+      "top_predicted_class": "eggs_large_white",
+      "confidence": 0.273,
+      "rejected_at_threshold_0_60": true,
+      "rejected_at_threshold_0_70": true
+    },
+    {
+      "file": "unknown_05.jpg",
+      "top_predicted_class": "eggs_large_white",
+      "confidence": 0.975,
+      "rejected_at_threshold_0_60": false,
+      "rejected_at_threshold_0_70": false
+    },
+    {
+      "file": "unknown_01.jpg",
+      "top_predicted_class": "pasta_barilla_spaghetti",
+      "confidence": 0.224,
+      "rejected_at_threshold_0_60": true,
+      "rejected_at_threshold_0_70": true
+    },
+    {
+      "file": "unknown_07.jpg",
+      "top_predicted_class": "cereal_cheerios",
+      "confidence": 0.357,
+      "rejected_at_threshold_0_60": true,
+      "rejected_at_threshold_0_70": true
+    },
+    {
+      "file": "unknown_10.jpg",
+      "top_predicted_class": "eggs_large_white",
+      "confidence": 0.556,
+      "rejected_at_threshold_0_60": true,
+      "rejected_at_threshold_0_70": true
+    },
+    {
+      "file": "unknown_02.jpg",
+      "top_predicted_class": "milk_oat",
+      "confidence": 0.896,
+      "rejected_at_threshold_0_60": false,
+      "rejected_at_threshold_0_70": false
+    },
+    {
+      "file": "unknown_09.jpg",
+      "top_predicted_class": "cucumber",
+      "confidence": 0.786,
+      "rejected_at_threshold_0_60": false,
+      "rejected_at_threshold_0_70": false
+    }
+  ]
+}

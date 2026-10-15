@@ -62,6 +62,9 @@ export interface ProductMatch {
   detectorScore: number; // 0–1
   ocrMatch: number; // 0–1
   candidateMargin: number; // 0–1
+  classifierScore?: number; // 0–1 MobileNetV3 top-1 confidence
+  classifierClassId?: string;
+  hierarchyLevel?: 'exact' | 'brand_generic' | 'category' | 'unknown';
   cropThumbUrl: string; // object URL or data URL
   status: 'provisional' | 'ocr-pending' | 'identified' | 'unknown';
   count?: number; // distinct physical boxes after grouping
@@ -72,6 +75,7 @@ export type PipelineStage =
   | 'loading-model'
   | 'downloading-model'
   | 'detecting'
+  | 'classifying'
   | 'reading-label'
   | 'matching'
   | 'finished'
@@ -80,6 +84,7 @@ export type PipelineStage =
 export interface PipelineTimings {
   modelLoadMs: number | null; // null on warm cache hit
   detectMs: number;
+  classifyMs?: number; // MobileNetV3 classification duration
   ocrMs: number; // total OCR budget used
   matchMs: number;
   totalMs: number;

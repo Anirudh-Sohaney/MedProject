@@ -14,3 +14,11 @@ mobileclip*
 scripts/cache/
 yoloe-*.pt
 yoloe-*.onnx
+yolo11n.onnx
+models/*.onnx
+models/detector/
+dataset/raw/
+dataset/processed/
+dataset/train/
+dataset/val/
+dataset/test/

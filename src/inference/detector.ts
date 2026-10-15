@@ -66,8 +66,8 @@ export function nmsDedupeDetections(
   iouThreshold = 0.65,
   maxDetections = 20
 ): { detections: Detection[]; omitted: number } {
-  // Discard scores < 0.20
-  const valid = raw.filter((d) => d.score >= 0.20);
+  // Discard scores < 0.15
+  const valid = raw.filter((d) => d.score >= 0.15);
   valid.sort((a, b) => b.score - a.score);
 
   const kept: Detection[] = [];
@@ -101,7 +101,7 @@ export function nmsDedupeDetections(
 let cachedDetector: LoadedDetector | null = null;
 
 /**
- * Loads the YOLOE ONNX model and sidecar metadata.
+ * Loads the YOLO grocery detector ONNX model and sidecar metadata.
  * Uses default backend selection with automatic CPU/WASM fallback (never requires WebGPU).
  */
 export async function loadDetector(options?: {
@@ -113,8 +113,8 @@ export async function loadDetector(options?: {
     return { ...cachedDetector, isWarm: true };
   }
 
-  const modelUrl = options?.modelUrl || '/models/groceries.onnx';
-  const metaUrl = options?.metaUrl || '/models/groceries.onnx.meta.json';
+  const modelUrl = options?.modelUrl || '/models/grocery_detector.onnx';
+  const metaUrl = options?.metaUrl || '/models/grocery_detector.onnx.meta.json';
 
   // 1. Fetch metadata sidecar
   let meta: DetectorMetadata;
@@ -125,8 +125,8 @@ export async function loadDetector(options?: {
   } catch (err) {
     console.warn('Metadata fetch failed, using built-in defaults:', err);
     meta = {
-      modelName: 'groceries.onnx',
-      inputSize: 416,
+      modelName: 'grocery_detector.onnx',
+      inputSize: 640,
       classes: Array.from(PRODUCE_SET),
       produceClasses: Array.from(PRODUCE_SET),
       labelMapIndex: {},

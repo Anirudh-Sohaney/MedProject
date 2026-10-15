@@ -1,0 +1,540 @@
+{
+  "version": "1.0.0",
+  "model_name": "product_classifier.onnx",
+  "num_classes": 52,
+  "input_size": 224,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "classes": [
+    {
+      "index": 0,
+      "id": "apple_gala",
+      "label": "Fresh Gala Apples",
+      "brand": null,
+      "ingredient": "100% Gala Apple",
+      "category": "produce",
+      "variety": "Gala"
+    },
+    {
+      "index": 1,
+      "id": "apple_golden_delicious",
+      "label": "Fresh Golden Delicious Apples",
+      "brand": null,
+      "ingredient": "100% Golden Delicious Apple",
+      "category": "produce",
+      "variety": "Golden Delicious"
+    },
+    {
+      "index": 2,
+      "id": "apple_granny_smith",
+      "label": "Fresh Granny Smith Apples",
+      "brand": null,
+      "ingredient": "100% Granny Smith Apple",
+      "category": "produce",
+      "variety": "Granny Smith"
+    },
+    {
+      "index": 3,
+      "id": "apple_pink_lady",
+      "label": "Fresh Pink Lady Apples",
+      "brand": null,
+      "ingredient": "100% Pink Lady Apple",
+      "category": "produce",
+      "variety": "Pink Lady"
+    },
+    {
+      "index": 4,
+      "id": "apple_red_delicious",
+      "label": "Fresh Red Delicious Apples",
+      "brand": null,
+      "ingredient": "100% Red Delicious Apple",
+      "category": "produce",
+      "variety": "Red Delicious"
+    },
+    {
+      "index": 5,
+      "id": "avocado_hass",
+      "label": "Fresh Hass Avocados",
+      "brand": null,
+      "ingredient": "100% Hass Avocado",
+      "category": "produce",
+      "variety": "Hass"
+    },
+    {
+      "index": 6,
+      "id": "banana",
+      "label": "Fresh Bananas",
+      "brand": null,
+      "ingredient": "100% Banana",
+      "category": "produce",
+      "variety": "Cavendish"
+    },
+    {
+      "index": 7,
+      "id": "beans_black_canned",
+      "label": "Goya Premium Black Beans",
+      "brand": "Goya",
+      "ingredient": "Black Beans, Water, Salt, Calcium Chloride",
+      "category": "pantry",
+      "variety": "Black Beans"
+    },
+    {
+      "index": 8,
+      "id": "bell_pepper_green",
+      "label": "Fresh Green Bell Pepper",
+      "brand": null,
+      "ingredient": "100% Green Bell Pepper",
+      "category": "produce",
+      "variety": "Green"
+    },
+    {
+      "index": 9,
+      "id": "bell_pepper_red",
+      "label": "Fresh Red Bell Pepper",
+      "brand": null,
+      "ingredient": "100% Red Bell Pepper",
+      "category": "produce",
+      "variety": "Red"
+    },
+    {
+      "index": 10,
+      "id": "bread_sliced_wheat",
+      "label": "Sara Lee Honey Wheat Bread",
+      "brand": "Sara Lee",
+      "ingredient": "Enriched Wheat Flour, Water, Honey, Whole Wheat Flour, Yeast, Wheat Gluten",
+      "category": "bakery",
+      "variety": "Honey Wheat"
+    },
+    {
+      "index": 11,
+      "id": "carrot",
+      "label": "Fresh Whole Carrots",
+      "brand": null,
+      "ingredient": "100% Carrot",
+      "category": "produce",
+      "variety": "Orange Carrot"
+    },
+    {
+      "index": 12,
+      "id": "cereal_cheerios",
+      "label": "Cheerios Original Toasted Whole Grain Oat Cereal",
+      "brand": "General Mills",
+      "ingredient": "Whole Grain Oats, Corn Starch, Sugar, Salt, Tripotassium Phosphate, Vitamin E",
+      "category": "pantry",
+      "variety": "Original"
+    },
+    {
+      "index": 13,
+      "id": "cereal_honey_nut_cheerios",
+      "label": "Honey Nut Cheerios Cereal",
+      "brand": "General Mills",
+      "ingredient": "Whole Grain Oats, Sugar, Corn Starch, Honey, Brown Sugar Syrup, Salt, Natural Almond Flavor",
+      "category": "pantry",
+      "variety": "Honey Nut"
+    },
+    {
+      "index": 14,
+      "id": "cheese_shredded_cheddar",
+      "label": "Kraft Shredded Mild Cheddar Cheese",
+      "brand": "Kraft",
+      "ingredient": "Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto, Potato Starch",
+      "category": "dairy",
+      "variety": "Shredded Mild Cheddar"
+    },
+    {
+      "index": 15,
+      "id": "cookies_oreo_original",
+      "label": "Oreo Original Chocolate Sandwich Cookies",
+      "brand": "Oreo",
+      "ingredient": "Sugar, Unbleached Enriched Flour, Palm and/or Canola Oil, Cocoa, High Fructose Corn Syrup",
+      "category": "snacks",
+      "variety": "Original"
+    },
+    {
+      "index": 16,
+      "id": "cucumber",
+      "label": "Fresh English Cucumber",
+      "brand": null,
+      "ingredient": "100% Cucumber",
+      "category": "produce",
+      "variety": "English Seedless"
+    },
+    {
+      "index": 17,
+      "id": "eggs_large_white",
+      "label": "Great Value Large White Eggs",
+      "brand": "Great Value",
+      "ingredient": "100% Grade A Large White Eggs",
+      "category": "dairy",
+      "variety": "Large White"
+    },
+    {
+      "index": 18,
+      "id": "garlic",
+      "label": "Fresh Garlic Bulbs",
+      "brand": null,
+      "ingredient": "100% Garlic",
+      "category": "produce",
+      "variety": "White Garlic"
+    },
+    {
+      "index": 19,
+      "id": "ginger",
+      "label": "Fresh Ginger Root",
+      "brand": null,
+      "ingredient": "100% Ginger",
+      "category": "produce",
+      "variety": "Fresh Root"
+    },
+    {
+      "index": 20,
+      "id": "juice_bravo_orange",
+      "label": "Bravo Orange Juice",
+      "brand": "Bravo",
+      "ingredient": "Orange juice from concentrate, vitamin C",
+      "category": "beverage",
+      "variety": "Orange"
+    },
+    {
+      "index": 21,
+      "id": "juice_cranberry_cocktail",
+      "label": "Ocean Spray Cranberry Juice Cocktail",
+      "brand": "Ocean Spray",
+      "ingredient": "Filtered Water, Cranberry Juice from Concentrate, Cane Sugar, Ascorbic Acid",
+      "category": "beverage",
+      "variety": "Cranberry Cocktail"
+    },
+    {
+      "index": 22,
+      "id": "juice_tropicana_apple",
+      "label": "Tropicana 100% Apple Juice",
+      "brand": "Tropicana",
+      "ingredient": "100% Pure Pasteurized Apple Juice, Vitamin C",
+      "category": "beverage",
+      "variety": "Apple Juice"
+    },
+    {
+      "index": 23,
+      "id": "juice_tropicana_orange",
+      "label": "Tropicana Pure Premium 100% Orange Juice",
+      "brand": "Tropicana",
+      "ingredient": "100% Pure Pasteurized Orange Juice",
+      "category": "beverage",
+      "variety": "Pure Premium Orange"
+    },
+    {
+      "index": 24,
+      "id": "kiwi",
+      "label": "Fresh Kiwifruit",
+      "brand": null,
+      "ingredient": "100% Kiwi",
+      "category": "produce",
+      "variety": "Green Kiwi"
+    },
+    {
+      "index": 25,
+      "id": "lemon",
+      "label": "Fresh Lemons",
+      "brand": null,
+      "ingredient": "100% Lemon",
+      "category": "produce",
+      "variety": "Eureka"
+    },
+    {
+      "index": 26,
+      "id": "lime",
+      "label": "Fresh Limes",
+      "brand": null,
+      "ingredient": "100% Lime",
+      "category": "produce",
+      "variety": "Persian"
+    },
+    {
+      "index": 27,
+      "id": "mango",
+      "label": "Fresh Mangoes",
+      "brand": null,
+      "ingredient": "100% Mango",
+      "category": "produce",
+      "variety": "Tommy Atkins"
+    },
+    {
+      "index": 28,
+      "id": "melon_watermelon",
+      "label": "Fresh Watermelon",
+      "brand": null,
+      "ingredient": "100% Watermelon",
+      "category": "produce",
+      "variety": "Seedless Watermelon"
+    },
+    {
+      "index": 29,
+      "id": "milk_2pct",
+      "label": "Great Value 2% Reduced Fat Milk",
+      "brand": "Great Value",
+      "ingredient": "Grade A Reduced Fat Milk, Vitamin A Palmitate, Vitamin D3",
+      "category": "dairy",
+      "variety": "2% Reduced Fat"
+    },
+    {
+      "index": 30,
+      "id": "milk_eco_organic",
+      "label": "Organic Whole Milk",
+      "brand": "Horizon / Arla Organic",
+      "ingredient": "Organic Grade A Milk, Vitamin D3",
+      "category": "dairy",
+      "variety": "Organic"
+    },
+    {
+      "index": 31,
+      "id": "milk_oat",
+      "label": "Oatly Original Oatmilk",
+      "brand": "Oatly",
+      "ingredient": "Oat base (water, oats), low erucic acid rapeseed oil, dipotassium phosphate",
+      "category": "dairy",
+      "variety": "Oat Milk"
+    },
+    {
+      "index": 32,
+      "id": "milk_soy",
+      "label": "Alpro Original Soya Milk",
+      "brand": "Alpro",
+      "ingredient": "Soya base (water, hulled soya beans), sugar, tricalcium phosphate",
+      "category": "dairy",
+      "variety": "Soy Milk"
+    },
+    {
+      "index": 33,
+      "id": "milk_whole",
+      "label": "Great Value Whole Milk",
+      "brand": "Great Value",
+      "ingredient": "Grade A Pasteurized Whole Milk, Vitamin D3",
+      "category": "dairy",
+      "variety": "Whole Milk"
+    },
+    {
+      "index": 34,
+      "id": "oats_quaker_old_fashioned",
+      "label": "Quaker Old Fashioned Rolled Oats",
+      "brand": "Quaker Oats",
+      "ingredient": "100% Whole Grain Rolled Oats",
+      "category": "pantry",
+      "variety": "Old Fashioned"
+    },
+    {
+      "index": 35,
+      "id": "oats_quaker_quick",
+      "label": "Quaker Quick 1-Minute Oats",
+      "brand": "Quaker Oats",
+      "ingredient": "100% Whole Grain Rolled Oats",
+      "category": "pantry",
+      "variety": "Quick 1-Minute"
+    },
+    {
+      "index": 36,
+      "id": "onion_yellow",
+      "label": "Fresh Yellow Onions",
+      "brand": null,
+      "ingredient": "100% Yellow Onion",
+      "category": "produce",
+      "variety": "Yellow"
+    },
+    {
+      "index": 37,
+      "id": "orange_navel",
+      "label": "Fresh Navel Oranges",
+      "brand": null,
+      "ingredient": "100% Navel Orange",
+      "category": "produce",
+      "variety": "Navel"
+    },
+    {
+      "index": 38,
+      "id": "pasta_barilla_spaghetti",
+      "label": "Barilla Spaghetti N\u00ba5",
+      "brand": "Barilla",
+      "ingredient": "Semolina (Wheat), Durum Wheat Flour, Vitamin B3, Iron, Vitamin B1, Vitamin B2, Folic Acid",
+      "category": "pantry",
+      "variety": "Spaghetti N\u00ba5"
+    },
+    {
+      "index": 39,
+      "id": "peach",
+      "label": "Fresh Peaches",
+      "brand": null,
+      "ingredient": "100% Peach",
+      "category": "produce",
+      "variety": "Yellow Peach"
+    },
+    {
+      "index": 40,
+      "id": "peanut_butter_jif_creamy",
+      "label": "Jif Creamy Peanut Butter",
+      "brand": "Jif",
+      "ingredient": "Roasted Peanuts, Sugar, Hydrogenated Vegetable Oils, Molasses, Salt",
+      "category": "pantry",
+      "variety": "Creamy"
+    },
+    {
+      "index": 41,
+      "id": "peanut_butter_skippy_creamy",
+      "label": "Skippy Creamy Peanut Butter",
+      "brand": "Skippy",
+      "ingredient": "Roasted Peanuts, Sugar, Hydrogenated Vegetable Oils, Salt",
+      "category": "pantry",
+      "variety": "Creamy"
+    },
+    {
+      "index": 42,
+      "id": "pineapple",
+      "label": "Fresh Whole Pineapple",
+      "brand": null,
+      "ingredient": "100% Pineapple",
+      "category": "produce",
+      "variety": "Golden Pineapple"
+    },
+    {
+      "index": 43,
+      "id": "plum",
+      "label": "Fresh Plums",
+      "brand": null,
+      "ingredient": "100% Plum",
+      "category": "produce",
+      "variety": "Black/Red Plum"
+    },
+    {
+      "index": 44,
+      "id": "potato_russet",
+      "label": "Fresh Russet Potatoes",
+      "brand": null,
+      "ingredient": "100% Russet Potato",
+      "category": "produce",
+      "variety": "Russet"
+    },
+    {
+      "index": 45,
+      "id": "soup_campbells_chicken_noodle",
+      "label": "Campbell's Condensed Chicken Noodle Soup",
+      "brand": "Campbell's",
+      "ingredient": "Chicken Stock, Enriched Egg Noodles, Chicken Meat, Salt, Water, Monosodium Glutamate",
+      "category": "pantry",
+      "variety": "Chicken Noodle"
+    },
+    {
+      "index": 46,
+      "id": "soup_campbells_tomato",
+      "label": "Campbell's Condensed Tomato Soup",
+      "brand": "Campbell's",
+      "ingredient": "Tomato Puree (Water, Tomato Paste), High Fructose Corn Syrup, Wheat Flour, Salt",
+      "category": "pantry",
+      "variety": "Tomato"
+    },
+    {
+      "index": 47,
+      "id": "tomato_roma",
+      "label": "Fresh Roma Tomatoes",
+      "brand": null,
+      "ingredient": "100% Roma Tomato",
+      "category": "produce",
+      "variety": "Roma"
+    },
+    {
+      "index": 48,
+      "id": "tomato_vine",
+      "label": "Fresh Vine Tomatoes",
+      "brand": null,
+      "ingredient": "100% Vine Tomato",
+      "category": "produce",
+      "variety": "On the Vine"
+    },
+    {
+      "index": 49,
+      "id": "yogurt_chobani_greek_plain",
+      "label": "Chobani Non-Fat Plain Greek Yogurt",
+      "brand": "Chobani",
+      "ingredient": "Cultured Nonfat Milk, Live and Active Cultures",
+      "category": "dairy",
+      "variety": "Nonfat Plain"
+    },
+    {
+      "index": 50,
+      "id": "yogurt_strawberry",
+      "label": "Strawberry Greek Yogurt",
+      "brand": "Chobani / Yoggi",
+      "ingredient": "Cultured Nonfat Milk, Strawberries, Evaporated Cane Juice, Pectin",
+      "category": "dairy",
+      "variety": "Strawberry"
+    },
+    {
+      "index": 51,
+      "id": "yogurt_vanilla",
+      "label": "Vanilla Greek Yogurt",
+      "brand": "Chobani / Valio",
+      "ingredient": "Cultured Grade A Low Fat Milk, Cane Sugar, Natural Vanilla Flavor",
+      "category": "dairy",
+      "variety": "Vanilla"
+    }
+  ],
+  "class_to_idx": {
+    "apple_gala": 0,
+    "apple_golden_delicious": 1,
+    "apple_granny_smith": 2,
+    "apple_pink_lady": 3,
+    "apple_red_delicious": 4,
+    "avocado_hass": 5,
+    "banana": 6,
+    "beans_black_canned": 7,
+    "bell_pepper_green": 8,
+    "bell_pepper_red": 9,
+    "bread_sliced_wheat": 10,
+    "carrot": 11,
+    "cereal_cheerios": 12,
+    "cereal_honey_nut_cheerios": 13,
+    "cheese_shredded_cheddar": 14,
+    "cookies_oreo_original": 15,
+    "cucumber": 16,
+    "eggs_large_white": 17,
+    "garlic": 18,
+    "ginger": 19,
+    "juice_bravo_orange": 20,
+    "juice_cranberry_cocktail": 21,
+    "juice_tropicana_apple": 22,
+    "juice_tropicana_orange": 23,
+    "kiwi": 24,
+    "lemon": 25,
+    "lime": 26,
+    "mango": 27,
+    "melon_watermelon": 28,
+    "milk_2pct": 29,
+    "milk_eco_organic": 30,
+    "milk_oat": 31,
+    "milk_soy": 32,
+    "milk_whole": 33,
+    "oats_quaker_old_fashioned": 34,
+    "oats_quaker_quick": 35,
+    "onion_yellow": 36,
+    "orange_navel": 37,
+    "pasta_barilla_spaghetti": 38,
+    "peach": 39,
+    "peanut_butter_jif_creamy": 40,
+    "peanut_butter_skippy_creamy": 41,
+    "pineapple": 42,
+    "plum": 43,
+    "potato_russet": 44,
+    "soup_campbells_chicken_noodle": 45,
+    "soup_campbells_tomato": 46,
+    "tomato_roma": 47,
+    "tomato_vine": 48,
+    "yogurt_chobani_greek_plain": 49,
+    "yogurt_strawberry": 50,
+    "yogurt_vanilla": 51
+  }
+}

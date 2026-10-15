@@ -1,0 +1,346 @@
+{
+  "summary": {
+    "total_images": 30,
+    "total_gt_objects": 47,
+    "total_predictions": 193,
+    "detection_recall": 70.2,
+    "detection_precision": 17.1,
+    "exact_product_top1_accuracy": 21.2,
+    "exact_product_top3_accuracy": 27.3,
+    "ingredient_accuracy": 9.1,
+    "unknown_rejection_rate": 66.7,
+    "latencies_ms": {
+      "avg_detect": 171.7,
+      "avg_classify": 164.3,
+      "avg_total": 336.0
+    }
+  },
+  "scene_stats": {
+    "isolated": {
+      "gt_boxes": 10,
+      "detected_boxes": 63,
+      "hits": 9,
+      "top1_hits": 3,
+      "top3_hits": 3,
+      "ingredient_hits": 3
+    },
+    "mixed": {
+      "gt_boxes": 23,
+      "detected_boxes": 96,
+      "hits": 17,
+      "top1_hits": 3,
+      "top3_hits": 4,
+      "ingredient_hits": 0
+    },
+    "occluded": {
+      "gt_boxes": 14,
+      "detected_boxes": 34,
+      "hits": 7,
+      "top1_hits": 1,
+      "top3_hits": 2,
+      "ingredient_hits": 0
+    }
+  },
+  "per_image": [
+    {
+      "file": "iso_01_apple.jpg",
+      "category": "isolated",
+      "gt_count": 1,
+      "detected_count": 20,
+      "hits": 1,
+      "top1_matches": 1,
+      "top3_matches": 1,
+      "total_ms": 737.9
+    },
+    {
+      "file": "iso_02_banana.jpg",
+      "category": "isolated",
+      "gt_count": 1,
+      "detected_count": 4,
+      "hits": 1,
+      "top1_matches": 1,
+      "top3_matches": 1,
+      "total_ms": 381.6
+    },
+    {
+      "file": "iso_03_orange.jpg",
+      "category": "isolated",
+      "gt_count": 1,
+      "detected_count": 9,
+      "hits": 1,
+      "top1_matches": 1,
+      "top3_matches": 1,
+      "total_ms": 431.1
+    },
+    {
+      "file": "iso_04_milk.jpg",
+      "category": "isolated",
+      "gt_count": 1,
+      "detected_count": 4,
+      "hits": 0,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 312.7
+    },
+    {
+      "file": "iso_05_bread.jpg",
+      "category": "isolated",
+      "gt_count": 1,
+      "detected_count": 2,
+      "hits": 1,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 223.9
+    },
+    {
+      "file": "iso_06_canned.jpg",
+      "category": "isolated",
+      "gt_count": 1,
+      "detected_count": 9,
+      "hits": 1,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 317.7
+    },
+    {
+      "file": "iso_07_egg.jpg",
+      "category": "isolated",
+      "gt_count": 1,
+      "detected_count": 3,
+      "hits": 1,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 268.3
+    },
+    {
+      "file": "iso_08_cereal.jpg",
+      "category": "isolated",
+      "gt_count": 1,
+      "detected_count": 2,
+      "hits": 1,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 294.9
+    },
+    {
+      "file": "mix_01_fruits.jpg",
+      "category": "mixed",
+      "gt_count": 3,
+      "detected_count": 22,
+      "hits": 3,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 546.4
+    },
+    {
+      "file": "mix_02_breakfast.jpg",
+      "category": "mixed",
+      "gt_count": 3,
+      "detected_count": 2,
+      "hits": 2,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 257.1
+    },
+    {
+      "file": "mix_03_produce_haul.jpg",
+      "category": "mixed",
+      "gt_count": 3,
+      "detected_count": 19,
+      "hits": 3,
+      "top1_matches": 0,
+      "top3_matches": 1,
+      "total_ms": 488.5
+    },
+    {
+      "file": "mix_04_table_groceries.jpg",
+      "category": "mixed",
+      "gt_count": 3,
+      "detected_count": 4,
+      "hits": 1,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 322.6
+    },
+    {
+      "file": "mix_05_citrus_bowl.jpg",
+      "category": "mixed",
+      "gt_count": 2,
+      "detected_count": 1,
+      "hits": 0,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 229.9
+    },
+    {
+      "file": "mix_06_berries.jpg",
+      "category": "mixed",
+      "gt_count": 1,
+      "detected_count": 15,
+      "hits": 1,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 434.8
+    },
+    {
+      "file": "mix_07_pantry_cans.jpg",
+      "category": "mixed",
+      "gt_count": 2,
+      "detected_count": 7,
+      "hits": 2,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 445.9
+    },
+    {
+      "file": "mix_08_baking_station.jpg",
+      "category": "mixed",
+      "gt_count": 2,
+      "detected_count": 3,
+      "hits": 1,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 292.1
+    },
+    {
+      "file": "occ_01_fridge_shelf.jpg",
+      "category": "occluded",
+      "gt_count": 2,
+      "detected_count": 0,
+      "hits": 0,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 121.1
+    },
+    {
+      "file": "occ_02_produce_bin.jpg",
+      "category": "occluded",
+      "gt_count": 2,
+      "detected_count": 15,
+      "hits": 2,
+      "top1_matches": 0,
+      "top3_matches": 1,
+      "total_ms": 400.1
+    },
+    {
+      "file": "occ_03_crowded_basket.jpg",
+      "category": "occluded",
+      "gt_count": 2,
+      "detected_count": 1,
+      "hits": 1,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 241.1
+    },
+    {
+      "file": "occ_04_crowded_pantry.jpg",
+      "category": "occluded",
+      "gt_count": 2,
+      "detected_count": 5,
+      "hits": 1,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 327.4
+    },
+    {
+      "file": "iso_09_peanut_butter.jpg",
+      "category": "isolated",
+      "gt_count": 1,
+      "detected_count": 8,
+      "hits": 1,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 418.7
+    },
+    {
+      "file": "iso_10_cookies.jpg",
+      "category": "isolated",
+      "gt_count": 1,
+      "detected_count": 2,
+      "hits": 1,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 259.3
+    },
+    {
+      "file": "mix_09_snack_spread.jpg",
+      "category": "mixed",
+      "gt_count": 2,
+      "detected_count": 17,
+      "hits": 2,
+      "top1_matches": 2,
+      "top3_matches": 2,
+      "total_ms": 515.8
+    },
+    {
+      "file": "mix_10_lunch_counter.jpg",
+      "category": "mixed",
+      "gt_count": 2,
+      "detected_count": 6,
+      "hits": 2,
+      "top1_matches": 1,
+      "top3_matches": 1,
+      "total_ms": 365.4
+    },
+    {
+      "file": "occ_05_refrigerator_door.jpg",
+      "category": "occluded",
+      "gt_count": 1,
+      "detected_count": 5,
+      "hits": 1,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 328.4
+    },
+    {
+      "file": "occ_06_shopping_cart.jpg",
+      "category": "occluded",
+      "gt_count": 1,
+      "detected_count": 0,
+      "hits": 0,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 131.5
+    },
+    {
+      "file": "occ_07_kitchen_cabinet.jpg",
+      "category": "occluded",
+      "gt_count": 1,
+      "detected_count": 0,
+      "hits": 0,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 164.1
+    },
+    {
+      "file": "occ_08_pantry_stack.jpg",
+      "category": "occluded",
+      "gt_count": 1,
+      "detected_count": 7,
+      "hits": 1,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 408.2
+    },
+    {
+      "file": "occ_09_checkout_belt.jpg",
+      "category": "occluded",
+      "gt_count": 1,
+      "detected_count": 0,
+      "hits": 0,
+      "top1_matches": 0,
+      "top3_matches": 0,
+      "total_ms": 187.9
+    },
+    {
+      "file": "occ_10_produce_display.jpg",
+      "category": "occluded",
+      "gt_count": 1,
+      "detected_count": 1,
+      "hits": 1,
+      "top1_matches": 1,
+      "top3_matches": 1,
+      "total_ms": 224.7
+    }
+  ]
+}

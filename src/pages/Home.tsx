@@ -91,7 +91,7 @@ export const Home: React.FC = () => {
             <div>
               <strong style={{ display: 'block' }}>Browser Inference Ready</strong>
               <span style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)' }}>
-                YOLOE-26n (9.3 MB) + Tesseract OCR cached locally
+                YOLO11 Detector + MobileNetV3 Classifier (15.3 MB) on-device
               </span>
             </div>
           </div>

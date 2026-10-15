@@ -29,6 +29,7 @@ export const StageBanner: React.FC<StageBannerProps> = ({ stage, message, progre
     'loading-model': 'Loading Model',
     'downloading-model': 'Downloading Model',
     'detecting': 'Detecting Items',
+    'classifying': 'Classifying Products',
     'reading-label': 'Reading Labels',
     'matching': 'Matching Catalog',
     'finished': 'Scan Complete',

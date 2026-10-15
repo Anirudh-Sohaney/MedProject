@@ -609,8 +609,260 @@
         "width": 640,
         "height": 960
       }
+    },
+    {
+      "id": "iso_09_peanut_butter",
+      "file": "iso_09_peanut_butter.jpg",
+      "category": "isolated",
+      "url": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=640&q=80",
+      "source": "Unsplash",
+      "ground_truth": [
+        {
+          "category": "pantry",
+          "name": "Jif Creamy Peanut Butter",
+          "box": [
+            150,
+            100,
+            490,
+            560
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 640
+      }
+    },
+    {
+      "id": "iso_10_cookies",
+      "file": "iso_10_cookies.jpg",
+      "category": "isolated",
+      "url": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=640&q=80",
+      "source": "Unsplash",
+      "ground_truth": [
+        {
+          "category": "snacks",
+          "name": "Oreo Original Cookies",
+          "box": [
+            120,
+            180,
+            520,
+            620
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 800
+      }
+    },
+    {
+      "id": "mix_09_snack_spread",
+      "file": "mix_09_snack_spread.jpg",
+      "category": "mixed",
+      "url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=640&q=80",
+      "source": "Unsplash",
+      "ground_truth": [
+        {
+          "category": "produce",
+          "name": "Fresh Tomatoes",
+          "box": [
+            80,
+            150,
+            320,
+            450
+          ]
+        },
+        {
+          "category": "produce",
+          "name": "Fresh Cucumbers",
+          "box": [
+            300,
+            400,
+            580,
+            800
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 968
+      }
+    },
+    {
+      "id": "mix_10_lunch_counter",
+      "file": "mix_10_lunch_counter.jpg",
+      "category": "mixed",
+      "url": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=640&q=80",
+      "source": "Unsplash",
+      "ground_truth": [
+        {
+          "category": "bakery",
+          "name": "Wheat Bread",
+          "box": [
+            100,
+            80,
+            360,
+            350
+          ]
+        },
+        {
+          "category": "produce",
+          "name": "Fresh Apples",
+          "box": [
+            380,
+            120,
+            560,
+            360
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 427
+      }
+    },
+    {
+      "id": "occ_05_refrigerator_door",
+      "file": "occ_05_refrigerator_door.jpg",
+      "category": "occluded",
+      "url": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=640&q=80",
+      "source": "Unsplash",
+      "ground_truth": [
+        {
+          "category": "pantry",
+          "name": "Canned Food",
+          "box": [
+            120,
+            60,
+            340,
+            380
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 427
+      }
+    },
+    {
+      "id": "occ_06_shopping_cart",
+      "file": "occ_06_shopping_cart.jpg",
+      "category": "occluded",
+      "url": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=640&q=80",
+      "source": "Unsplash",
+      "ground_truth": [
+        {
+          "category": "dairy",
+          "name": "Milk Carton",
+          "box": [
+            180,
+            100,
+            420,
+            380
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "id": "occ_07_kitchen_cabinet",
+      "file": "occ_07_kitchen_cabinet.jpg",
+      "category": "occluded",
+      "url": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?w=640&q=80",
+      "source": "Unsplash",
+      "ground_truth": [
+        {
+          "category": "pantry",
+          "name": "Quaker Oats",
+          "box": [
+            150,
+            80,
+            380,
+            400
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "id": "occ_08_pantry_stack",
+      "file": "occ_08_pantry_stack.jpg",
+      "category": "occluded",
+      "url": "https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?w=640&q=80",
+      "source": "Unsplash",
+      "ground_truth": [
+        {
+          "category": "pantry",
+          "name": "Pasta Box",
+          "box": [
+            200,
+            100,
+            460,
+            410
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "id": "occ_09_checkout_belt",
+      "file": "occ_09_checkout_belt.jpg",
+      "category": "occluded",
+      "url": "https://images.unsplash.com/photo-1534723452862-4c874018d66d?w=640&q=80",
+      "source": "Unsplash",
+      "ground_truth": [
+        {
+          "category": "dairy",
+          "name": "Yogurt Tub",
+          "box": [
+            160,
+            100,
+            390,
+            360
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 427
+      }
+    },
+    {
+      "id": "occ_10_produce_display",
+      "file": "occ_10_produce_display.jpg",
+      "category": "occluded",
+      "url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=640&q=80",
+      "source": "Unsplash",
+      "ground_truth": [
+        {
+          "category": "produce",
+          "name": "Fresh Bananas",
+          "box": [
+            140,
+            80,
+            460,
+            380
+          ]
+        }
+      ],
+      "dimensions": {
+        "width": 640,
+        "height": 427
+      }
     }
   ],
   "totalImages": 20,
-  "downloaded": 20
+  "downloaded": 20,
+  "version": "2.0.0",
+  "total_images": 30
 }

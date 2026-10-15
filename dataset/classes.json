@@ -1,0 +1,843 @@
+{
+  "version": "1.0.0",
+  "total_classes": 52,
+  "classes": [
+    {
+      "id": "apple_gala",
+      "class_index": 0,
+      "label": "Fresh Gala Apples",
+      "brand": null,
+      "ingredient": "100% Gala Apple",
+      "category": "produce",
+      "variety": "Gala",
+      "counts": {
+        "total": 134,
+        "train": 93,
+        "val": 20,
+        "test": 21
+      },
+      "model_class_index": 0
+    },
+    {
+      "id": "apple_granny_smith",
+      "class_index": 1,
+      "label": "Fresh Granny Smith Apples",
+      "brand": null,
+      "ingredient": "100% Granny Smith Apple",
+      "category": "produce",
+      "variety": "Granny Smith",
+      "counts": {
+        "total": 123,
+        "train": 86,
+        "val": 18,
+        "test": 19
+      },
+      "model_class_index": 2
+    },
+    {
+      "id": "apple_golden_delicious",
+      "class_index": 2,
+      "label": "Fresh Golden Delicious Apples",
+      "brand": null,
+      "ingredient": "100% Golden Delicious Apple",
+      "category": "produce",
+      "variety": "Golden Delicious",
+      "counts": {
+        "total": 96,
+        "train": 67,
+        "val": 14,
+        "test": 15
+      },
+      "model_class_index": 1
+    },
+    {
+      "id": "apple_red_delicious",
+      "class_index": 3,
+      "label": "Fresh Red Delicious Apples",
+      "brand": null,
+      "ingredient": "100% Red Delicious Apple",
+      "category": "produce",
+      "variety": "Red Delicious",
+      "counts": {
+        "total": 100,
+        "train": 70,
+        "val": 15,
+        "test": 15
+      },
+      "model_class_index": 4
+    },
+    {
+      "id": "apple_pink_lady",
+      "class_index": 4,
+      "label": "Fresh Pink Lady Apples",
+      "brand": null,
+      "ingredient": "100% Pink Lady Apple",
+      "category": "produce",
+      "variety": "Pink Lady",
+      "counts": {
+        "total": 123,
+        "train": 86,
+        "val": 18,
+        "test": 19
+      },
+      "model_class_index": 3
+    },
+    {
+      "id": "banana",
+      "class_index": 5,
+      "label": "Fresh Bananas",
+      "brand": null,
+      "ingredient": "100% Banana",
+      "category": "produce",
+      "variety": "Cavendish",
+      "counts": {
+        "total": 95,
+        "train": 66,
+        "val": 14,
+        "test": 15
+      },
+      "model_class_index": 6
+    },
+    {
+      "id": "orange_navel",
+      "class_index": 6,
+      "label": "Fresh Navel Oranges",
+      "brand": null,
+      "ingredient": "100% Navel Orange",
+      "category": "produce",
+      "variety": "Navel",
+      "counts": {
+        "total": 118,
+        "train": 82,
+        "val": 17,
+        "test": 19
+      },
+      "model_class_index": 37
+    },
+    {
+      "id": "lemon",
+      "class_index": 7,
+      "label": "Fresh Lemons",
+      "brand": null,
+      "ingredient": "100% Lemon",
+      "category": "produce",
+      "variety": "Eureka",
+      "counts": {
+        "total": 88,
+        "train": 61,
+        "val": 13,
+        "test": 14
+      },
+      "model_class_index": 25
+    },
+    {
+      "id": "lime",
+      "class_index": 8,
+      "label": "Fresh Limes",
+      "brand": null,
+      "ingredient": "100% Lime",
+      "category": "produce",
+      "variety": "Persian",
+      "counts": {
+        "total": 66,
+        "train": 46,
+        "val": 9,
+        "test": 11
+      },
+      "model_class_index": 26
+    },
+    {
+      "id": "avocado_hass",
+      "class_index": 9,
+      "label": "Fresh Hass Avocados",
+      "brand": null,
+      "ingredient": "100% Hass Avocado",
+      "category": "produce",
+      "variety": "Hass",
+      "counts": {
+        "total": 86,
+        "train": 60,
+        "val": 12,
+        "test": 14
+      },
+      "model_class_index": 5
+    },
+    {
+      "id": "kiwi",
+      "class_index": 10,
+      "label": "Fresh Kiwifruit",
+      "brand": null,
+      "ingredient": "100% Kiwi",
+      "category": "produce",
+      "variety": "Green Kiwi",
+      "counts": {
+        "total": 96,
+        "train": 67,
+        "val": 14,
+        "test": 15
+      },
+      "model_class_index": 24
+    },
+    {
+      "id": "mango",
+      "class_index": 11,
+      "label": "Fresh Mangoes",
+      "brand": null,
+      "ingredient": "100% Mango",
+      "category": "produce",
+      "variety": "Tommy Atkins",
+      "counts": {
+        "total": 66,
+        "train": 46,
+        "val": 9,
+        "test": 11
+      },
+      "model_class_index": 27
+    },
+    {
+      "id": "melon_watermelon",
+      "class_index": 12,
+      "label": "Fresh Watermelon",
+      "brand": null,
+      "ingredient": "100% Watermelon",
+      "category": "produce",
+      "variety": "Seedless Watermelon",
+      "counts": {
+        "total": 97,
+        "train": 67,
+        "val": 14,
+        "test": 16
+      },
+      "model_class_index": 28
+    },
+    {
+      "id": "peach",
+      "class_index": 13,
+      "label": "Fresh Peaches",
+      "brand": null,
+      "ingredient": "100% Peach",
+      "category": "produce",
+      "variety": "Yellow Peach",
+      "counts": {
+        "total": 78,
+        "train": 54,
+        "val": 11,
+        "test": 13
+      },
+      "model_class_index": 39
+    },
+    {
+      "id": "pineapple",
+      "class_index": 14,
+      "label": "Fresh Whole Pineapple",
+      "brand": null,
+      "ingredient": "100% Pineapple",
+      "category": "produce",
+      "variety": "Golden Pineapple",
+      "counts": {
+        "total": 56,
+        "train": 39,
+        "val": 8,
+        "test": 9
+      },
+      "model_class_index": 42
+    },
+    {
+      "id": "plum",
+      "class_index": 15,
+      "label": "Fresh Plums",
+      "brand": null,
+      "ingredient": "100% Plum",
+      "category": "produce",
+      "variety": "Black/Red Plum",
+      "counts": {
+        "total": 44,
+        "train": 30,
+        "val": 6,
+        "test": 8
+      },
+      "model_class_index": 43
+    },
+    {
+      "id": "tomato_roma",
+      "class_index": 16,
+      "label": "Fresh Roma Tomatoes",
+      "brand": null,
+      "ingredient": "100% Roma Tomato",
+      "category": "produce",
+      "variety": "Roma",
+      "counts": {
+        "total": 97,
+        "train": 67,
+        "val": 14,
+        "test": 16
+      },
+      "model_class_index": 47
+    },
+    {
+      "id": "tomato_vine",
+      "class_index": 17,
+      "label": "Fresh Vine Tomatoes",
+      "brand": null,
+      "ingredient": "100% Vine Tomato",
+      "category": "produce",
+      "variety": "On the Vine",
+      "counts": {
+        "total": 91,
+        "train": 63,
+        "val": 13,
+        "test": 15
+      },
+      "model_class_index": 48
+    },
+    {
+      "id": "potato_russet",
+      "class_index": 18,
+      "label": "Fresh Russet Potatoes",
+      "brand": null,
+      "ingredient": "100% Russet Potato",
+      "category": "produce",
+      "variety": "Russet",
+      "counts": {
+        "total": 39,
+        "train": 27,
+        "val": 5,
+        "test": 7
+      },
+      "model_class_index": 44
+    },
+    {
+      "id": "onion_yellow",
+      "class_index": 19,
+      "label": "Fresh Yellow Onions",
+      "brand": null,
+      "ingredient": "100% Yellow Onion",
+      "category": "produce",
+      "variety": "Yellow",
+      "counts": {
+        "total": 80,
+        "train": 56,
+        "val": 12,
+        "test": 12
+      },
+      "model_class_index": 36
+    },
+    {
+      "id": "carrot",
+      "class_index": 20,
+      "label": "Fresh Whole Carrots",
+      "brand": null,
+      "ingredient": "100% Carrot",
+      "category": "produce",
+      "variety": "Orange Carrot",
+      "counts": {
+        "total": 96,
+        "train": 67,
+        "val": 14,
+        "test": 15
+      },
+      "model_class_index": 11
+    },
+    {
+      "id": "cucumber",
+      "class_index": 21,
+      "label": "Fresh English Cucumber",
+      "brand": null,
+      "ingredient": "100% Cucumber",
+      "category": "produce",
+      "variety": "English Seedless",
+      "counts": {
+        "total": 68,
+        "train": 47,
+        "val": 10,
+        "test": 11
+      },
+      "model_class_index": 16
+    },
+    {
+      "id": "bell_pepper_green",
+      "class_index": 22,
+      "label": "Fresh Green Bell Pepper",
+      "brand": null,
+      "ingredient": "100% Green Bell Pepper",
+      "category": "produce",
+      "variety": "Green",
+      "counts": {
+        "total": 51,
+        "train": 35,
+        "val": 7,
+        "test": 9
+      },
+      "model_class_index": 8
+    },
+    {
+      "id": "bell_pepper_red",
+      "class_index": 23,
+      "label": "Fresh Red Bell Pepper",
+      "brand": null,
+      "ingredient": "100% Red Bell Pepper",
+      "category": "produce",
+      "variety": "Red",
+      "counts": {
+        "total": 72,
+        "train": 50,
+        "val": 10,
+        "test": 12
+      },
+      "model_class_index": 9
+    },
+    {
+      "id": "garlic",
+      "class_index": 24,
+      "label": "Fresh Garlic Bulbs",
+      "brand": null,
+      "ingredient": "100% Garlic",
+      "category": "produce",
+      "variety": "White Garlic",
+      "counts": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "model_class_index": 18
+    },
+    {
+      "id": "ginger",
+      "class_index": 25,
+      "label": "Fresh Ginger Root",
+      "brand": null,
+      "ingredient": "100% Ginger",
+      "category": "produce",
+      "variety": "Fresh Root",
+      "counts": {
+        "total": 38,
+        "train": 26,
+        "val": 5,
+        "test": 7
+      },
+      "model_class_index": 19
+    },
+    {
+      "id": "milk_whole",
+      "class_index": 26,
+      "label": "Great Value Whole Milk",
+      "brand": "Great Value",
+      "ingredient": "Grade A Pasteurized Whole Milk, Vitamin D3",
+      "category": "dairy",
+      "variety": "Whole Milk",
+      "counts": {
+        "total": 65,
+        "train": 45,
+        "val": 9,
+        "test": 11
+      },
+      "model_class_index": 33
+    },
+    {
+      "id": "milk_2pct",
+      "class_index": 27,
+      "label": "Great Value 2% Reduced Fat Milk",
+      "brand": "Great Value",
+      "ingredient": "Grade A Reduced Fat Milk, Vitamin A Palmitate, Vitamin D3",
+      "category": "dairy",
+      "variety": "2% Reduced Fat",
+      "counts": {
+        "total": 72,
+        "train": 50,
+        "val": 10,
+        "test": 12
+      },
+      "model_class_index": 29
+    },
+    {
+      "id": "milk_eco_organic",
+      "class_index": 28,
+      "label": "Organic Whole Milk",
+      "brand": "Horizon / Arla Organic",
+      "ingredient": "Organic Grade A Milk, Vitamin D3",
+      "category": "dairy",
+      "variety": "Organic",
+      "counts": {
+        "total": 63,
+        "train": 44,
+        "val": 9,
+        "test": 10
+      },
+      "model_class_index": 30
+    },
+    {
+      "id": "milk_oat",
+      "class_index": 29,
+      "label": "Oatly Original Oatmilk",
+      "brand": "Oatly",
+      "ingredient": "Oat base (water, oats), low erucic acid rapeseed oil, dipotassium phosphate",
+      "category": "dairy",
+      "variety": "Oat Milk",
+      "counts": {
+        "total": 68,
+        "train": 47,
+        "val": 10,
+        "test": 11
+      },
+      "model_class_index": 31
+    },
+    {
+      "id": "milk_soy",
+      "class_index": 30,
+      "label": "Alpro Original Soya Milk",
+      "brand": "Alpro",
+      "ingredient": "Soya base (water, hulled soya beans), sugar, tricalcium phosphate",
+      "category": "dairy",
+      "variety": "Soy Milk",
+      "counts": {
+        "total": 58,
+        "train": 40,
+        "val": 8,
+        "test": 10
+      },
+      "model_class_index": 32
+    },
+    {
+      "id": "yogurt_chobani_greek_plain",
+      "class_index": 31,
+      "label": "Chobani Non-Fat Plain Greek Yogurt",
+      "brand": "Chobani",
+      "ingredient": "Cultured Nonfat Milk, Live and Active Cultures",
+      "category": "dairy",
+      "variety": "Nonfat Plain",
+      "counts": {
+        "total": 108,
+        "train": 75,
+        "val": 16,
+        "test": 17
+      },
+      "model_class_index": 49
+    },
+    {
+      "id": "yogurt_strawberry",
+      "class_index": 32,
+      "label": "Strawberry Greek Yogurt",
+      "brand": "Chobani / Yoggi",
+      "ingredient": "Cultured Nonfat Milk, Strawberries, Evaporated Cane Juice, Pectin",
+      "category": "dairy",
+      "variety": "Strawberry",
+      "counts": {
+        "total": 94,
+        "train": 65,
+        "val": 14,
+        "test": 15
+      },
+      "model_class_index": 50
+    },
+    {
+      "id": "yogurt_vanilla",
+      "class_index": 33,
+      "label": "Vanilla Greek Yogurt",
+      "brand": "Chobani / Valio",
+      "ingredient": "Cultured Grade A Low Fat Milk, Cane Sugar, Natural Vanilla Flavor",
+      "category": "dairy",
+      "variety": "Vanilla",
+      "counts": {
+        "total": 68,
+        "train": 47,
+        "val": 10,
+        "test": 11
+      },
+      "model_class_index": 51
+    },
+    {
+      "id": "eggs_large_white",
+      "class_index": 34,
+      "label": "Great Value Large White Eggs",
+      "brand": "Great Value",
+      "ingredient": "100% Grade A Large White Eggs",
+      "category": "dairy",
+      "variety": "Large White",
+      "counts": {
+        "total": 25,
+        "train": 17,
+        "val": 3,
+        "test": 5
+      },
+      "model_class_index": 17
+    },
+    {
+      "id": "cheese_shredded_cheddar",
+      "class_index": 35,
+      "label": "Kraft Shredded Mild Cheddar Cheese",
+      "brand": "Kraft",
+      "ingredient": "Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto, Potato Starch",
+      "category": "dairy",
+      "variety": "Shredded Mild Cheddar",
+      "counts": {
+        "total": 21,
+        "train": 14,
+        "val": 3,
+        "test": 4
+      },
+      "model_class_index": 14
+    },
+    {
+      "id": "juice_tropicana_orange",
+      "class_index": 36,
+      "label": "Tropicana Pure Premium 100% Orange Juice",
+      "brand": "Tropicana",
+      "ingredient": "100% Pure Pasteurized Orange Juice",
+      "category": "beverage",
+      "variety": "Pure Premium Orange",
+      "counts": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "model_class_index": 23
+    },
+    {
+      "id": "juice_tropicana_apple",
+      "class_index": 37,
+      "label": "Tropicana 100% Apple Juice",
+      "brand": "Tropicana",
+      "ingredient": "100% Pure Pasteurized Apple Juice, Vitamin C",
+      "category": "beverage",
+      "variety": "Apple Juice",
+      "counts": {
+        "total": 59,
+        "train": 41,
+        "val": 8,
+        "test": 10
+      },
+      "model_class_index": 22
+    },
+    {
+      "id": "juice_bravo_orange",
+      "class_index": 38,
+      "label": "Bravo Orange Juice",
+      "brand": "Bravo",
+      "ingredient": "Orange juice from concentrate, vitamin C",
+      "category": "beverage",
+      "variety": "Orange",
+      "counts": {
+        "total": 68,
+        "train": 47,
+        "val": 10,
+        "test": 11
+      },
+      "model_class_index": 20
+    },
+    {
+      "id": "juice_cranberry_cocktail",
+      "class_index": 39,
+      "label": "Ocean Spray Cranberry Juice Cocktail",
+      "brand": "Ocean Spray",
+      "ingredient": "Filtered Water, Cranberry Juice from Concentrate, Cane Sugar, Ascorbic Acid",
+      "category": "beverage",
+      "variety": "Cranberry Cocktail",
+      "counts": {
+        "total": 12,
+        "train": 8,
+        "val": 1,
+        "test": 3
+      },
+      "model_class_index": 21
+    },
+    {
+      "id": "oats_quaker_old_fashioned",
+      "class_index": 40,
+      "label": "Quaker Old Fashioned Rolled Oats",
+      "brand": "Quaker Oats",
+      "ingredient": "100% Whole Grain Rolled Oats",
+      "category": "pantry",
+      "variety": "Old Fashioned",
+      "counts": {
+        "total": 25,
+        "train": 17,
+        "val": 3,
+        "test": 5
+      },
+      "model_class_index": 34
+    },
+    {
+      "id": "oats_quaker_quick",
+      "class_index": 41,
+      "label": "Quaker Quick 1-Minute Oats",
+      "brand": "Quaker Oats",
+      "ingredient": "100% Whole Grain Rolled Oats",
+      "category": "pantry",
+      "variety": "Quick 1-Minute",
+      "counts": {
+        "total": 25,
+        "train": 17,
+        "val": 3,
+        "test": 5
+      },
+      "model_class_index": 35
+    },
+    {
+      "id": "cereal_cheerios",
+      "class_index": 42,
+      "label": "Cheerios Original Toasted Whole Grain Oat Cereal",
+      "brand": "General Mills",
+      "ingredient": "Whole Grain Oats, Corn Starch, Sugar, Salt, Tripotassium Phosphate, Vitamin E",
+      "category": "pantry",
+      "variety": "Original",
+      "counts": {
+        "total": 9,
+        "train": 6,
+        "val": 1,
+        "test": 2
+      },
+      "model_class_index": 12
+    },
+    {
+      "id": "cereal_honey_nut_cheerios",
+      "class_index": 43,
+      "label": "Honey Nut Cheerios Cereal",
+      "brand": "General Mills",
+      "ingredient": "Whole Grain Oats, Sugar, Corn Starch, Honey, Brown Sugar Syrup, Salt, Natural Almond Flavor",
+      "category": "pantry",
+      "variety": "Honey Nut",
+      "counts": {
+        "total": 6,
+        "train": 4,
+        "val": 1,
+        "test": 1
+      },
+      "model_class_index": 13
+    },
+    {
+      "id": "pasta_barilla_spaghetti",
+      "class_index": 44,
+      "label": "Barilla Spaghetti N\u00ba5",
+      "brand": "Barilla",
+      "ingredient": "Semolina (Wheat), Durum Wheat Flour, Vitamin B3, Iron, Vitamin B1, Vitamin B2, Folic Acid",
+      "category": "pantry",
+      "variety": "Spaghetti N\u00ba5",
+      "counts": {
+        "total": 25,
+        "train": 17,
+        "val": 3,
+        "test": 5
+      },
+      "model_class_index": 38
+    },
+    {
+      "id": "soup_campbells_chicken_noodle",
+      "class_index": 45,
+      "label": "Campbell's Condensed Chicken Noodle Soup",
+      "brand": "Campbell's",
+      "ingredient": "Chicken Stock, Enriched Egg Noodles, Chicken Meat, Salt, Water, Monosodium Glutamate",
+      "category": "pantry",
+      "variety": "Chicken Noodle",
+      "counts": {
+        "total": 20,
+        "train": 14,
+        "val": 3,
+        "test": 3
+      },
+      "model_class_index": 45
+    },
+    {
+      "id": "soup_campbells_tomato",
+      "class_index": 46,
+      "label": "Campbell's Condensed Tomato Soup",
+      "brand": "Campbell's",
+      "ingredient": "Tomato Puree (Water, Tomato Paste), High Fructose Corn Syrup, Wheat Flour, Salt",
+      "category": "pantry",
+      "variety": "Tomato",
+      "counts": {
+        "total": 25,
+        "train": 17,
+        "val": 3,
+        "test": 5
+      },
+      "model_class_index": 46
+    },
+    {
+      "id": "beans_black_canned",
+      "class_index": 47,
+      "label": "Goya Premium Black Beans",
+      "brand": "Goya",
+      "ingredient": "Black Beans, Water, Salt, Calcium Chloride",
+      "category": "pantry",
+      "variety": "Black Beans",
+      "counts": {
+        "total": 40,
+        "train": 28,
+        "val": 6,
+        "test": 6
+      },
+      "model_class_index": 7
+    },
+    {
+      "id": "peanut_butter_jif_creamy",
+      "class_index": 48,
+      "label": "Jif Creamy Peanut Butter",
+      "brand": "Jif",
+      "ingredient": "Roasted Peanuts, Sugar, Hydrogenated Vegetable Oils, Molasses, Salt",
+      "category": "pantry",
+      "variety": "Creamy",
+      "counts": {
+        "total": 25,
+        "train": 17,
+        "val": 3,
+        "test": 5
+      },
+      "model_class_index": 40
+    },
+    {
+      "id": "peanut_butter_skippy_creamy",
+      "class_index": 49,
+      "label": "Skippy Creamy Peanut Butter",
+      "brand": "Skippy",
+      "ingredient": "Roasted Peanuts, Sugar, Hydrogenated Vegetable Oils, Salt",
+      "category": "pantry",
+      "variety": "Creamy",
+      "counts": {
+        "total": 24,
+        "train": 16,
+        "val": 3,
+        "test": 5
+      },
+      "model_class_index": 41
+    },
+    {
+      "id": "bread_sliced_wheat",
+      "class_index": 50,
+      "label": "Sara Lee Honey Wheat Bread",
+      "brand": "Sara Lee",
+      "ingredient": "Enriched Wheat Flour, Water, Honey, Whole Wheat Flour, Yeast, Wheat Gluten",
+      "category": "bakery",
+      "variety": "Honey Wheat",
+      "counts": {
+        "total": 50,
+        "train": 35,
+        "val": 7,
+        "test": 8
+      },
+      "model_class_index": 10
+    },
+    {
+      "id": "cookies_oreo_original",
+      "class_index": 51,
+      "label": "Oreo Original Chocolate Sandwich Cookies",
+      "brand": "Oreo",
+      "ingredient": "Sugar, Unbleached Enriched Flour, Palm and/or Canola Oil, Cocoa, High Fructose Corn Syrup",
+      "category": "snacks",
+      "variety": "Original",
+      "counts": {
+        "total": 25,
+        "train": 17,
+        "val": 3,
+        "test": 5
+      },
+      "model_class_index": 15
+    }
+  ],
+  "summary": {
+    "total_train_images": 2273,
+    "total_val_images": 466,
+    "total_test_images": 539
+  }
+}
