@@ -10,6 +10,7 @@ import {
 } from '@/types/contracts';
 import { decodeFileToCanvas, downscaleForDetector } from '@/inference/imageUtils';
 import { runPipeline } from '@/inference/pipeline';
+import { runOpenRouterPipeline } from '@/inference/openrouter';
 import { terminateOcrWorker } from '@/inference/ocr';
 
 export interface SourceImageState {
@@ -31,6 +32,8 @@ interface ScanContextValue {
   omittedCount: number;
   error: { message: string; recoverable: boolean } | null;
   modelReady: boolean;
+  scanEngine: 'openrouter' | 'on-device';
+  setScanEngine: (engine: 'openrouter' | 'on-device') => void;
   setSourceFromFile: (file: File) => Promise<void>;
   startScan: () => Promise<void>;
   reset: () => void;
@@ -50,6 +53,17 @@ export const ScanProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [omittedCount, setOmittedCount] = useState<number>(0);
   const [error, setError] = useState<{ message: string; recoverable: boolean } | null>(null);
   const [modelReady, setModelReady] = useState<boolean>(false);
+  const [scanEngine, setScanEngineState] = useState<'openrouter' | 'on-device'>(() => {
+    const saved = typeof window !== 'undefined' ? localStorage.getItem('scan_engine') : null;
+    return saved === 'on-device' ? 'on-device' : 'openrouter';
+  });
+
+  const setScanEngine = useCallback((eng: 'openrouter' | 'on-device') => {
+    setScanEngineState(eng);
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('scan_engine', eng);
+    }
+  }, []);
 
   const activeObjectUrls = useRef<Set<string>>(new Set());
 
@@ -167,8 +181,12 @@ export const ScanProvider: React.FC<{ children: React.ReactNode }> = ({ children
       height: sourceImage.height,
     };
 
-    await runPipeline(input, handlePipelineEvent);
-  }, [sourceImage, handlePipelineEvent]);
+    if (scanEngine === 'openrouter') {
+      await runOpenRouterPipeline(input, handlePipelineEvent);
+    } else {
+      await runPipeline(input, handlePipelineEvent);
+    }
+  }, [sourceImage, handlePipelineEvent, scanEngine]);
 
   const manualCorrect = useCallback((detectionId: string, product: Product) => {
     setMatches((prev) =>
@@ -204,6 +222,8 @@ export const ScanProvider: React.FC<{ children: React.ReactNode }> = ({ children
         omittedCount,
         error,
         modelReady,
+        scanEngine,
+        setScanEngine,
         setSourceFromFile,
         startScan,
         reset,

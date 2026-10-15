@@ -10,6 +10,11 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  define: {
+    __DEFAULT_OPENROUTER_KEY__: JSON.stringify(
+      process.env.OPENROUTER_API_KEY || process.env.OPENROUTER_API_KEY_FALLBACK || ''
+    ),
+  },
   server: {
     headers: {
       'Cross-Origin-Opener-Policy': 'same-origin',
