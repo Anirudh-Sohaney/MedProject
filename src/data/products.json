@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "362b8cdc56c3",
+    "name": "Fresh Gala Apples",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "apple"
+    ],
+    "parentName": "Apples",
+    "ingredientName": "Pommes gala",
+    "aliases": [
+      "fresh gala apples"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://world.openfoodfacts.org/product/3564707118323",
+    "image": "https://images.openfoodfacts.org/images/products/356/470/711/8323/front_en.7.400.jpg"
+  },
+  {
+    "id": "a2aa2ce62654",
+    "name": "Fresh Honeycrisp Apples",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "apple"
+    ],
+    "parentName": "Apples",
+    "ingredientName": "honeycrisp apple",
+    "aliases": [
+      "fresh honeycrisp apples",
+      "honeycrisp"
+    ],
+    "variantTokens": [
+      "honeycrisp"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/00003283",
+    "image": "https://images.openfoodfacts.org/images/products/000/000/000/3283/front_en.12.400.jpg"
+  },
+  {
+    "id": "622022315213",
+    "name": "Fresh Granny Smith Apples",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "apple"
+    ],
+    "parentName": "Apples",
+    "ingredientName": "100% apples,",
+    "aliases": [
+      "fresh granny smith apples",
+      "granny smith",
+      "green"
+    ],
+    "variantTokens": [
+      "granny smith",
+      "green"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/4056489186267",
+    "image": "https://images.openfoodfacts.org/images/products/405/648/918/6267/front_fr.15.400.jpg"
+  },
+  {
+    "id": "4d3bb6e2abb0",
+    "name": "Fresh Bananas",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "banana"
+    ],
+    "parentName": "Bananas",
+    "ingredientName": "100% bananas",
+    "aliases": [
+      "fresh bananas"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://world.openfoodfacts.org/category/banana"
+  },
+  {
+    "id": "516399d5b072",
+    "name": "Organic Bananas",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "banana"
+    ],
+    "parentName": "Bananas",
+    "ingredientName": "100% bananas",
+    "aliases": [
+      "organic",
+      "organic bananas"
+    ],
+    "variantTokens": [
+      "organic"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/category/banana"
+  },
+  {
+    "id": "06998e69fc8b",
+    "name": "Fresh Navel Oranges",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "orange"
+    ],
+    "parentName": "Oranges",
+    "ingredientName": "Oranges.",
+    "aliases": [
+      "fresh navel oranges",
+      "navel"
+    ],
+    "variantTokens": [
+      "navel"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/01189186",
+    "image": "https://images.openfoodfacts.org/images/products/000/000/118/9186/front_en.17.400.jpg"
+  },
+  {
+    "id": "d4c4d171cb3d",
+    "name": "Fresh Whole Lemons",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "lemon"
+    ],
+    "parentName": "Lemons",
+    "ingredientName": "Pure organic filtered whole leaf aloe vera (99%), organic lemon juice (1%).",
+    "aliases": [
+      "fresh whole lemons"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0042608125037"
+  },
+  {
+    "id": "695e67b4b967",
+    "name": "Fresh Whole Limes",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "lime"
+    ],
+    "parentName": "Limes",
+    "ingredientName": "Apples, celery cucumber, kale, cilantro, & limes",
+    "aliases": [
+      "fresh whole limes"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0723055840284"
+  },
+  {
+    "id": "ba97bb798f68",
+    "name": "Fresh Hass Avocados",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "avocado"
+    ],
+    "parentName": "Avocados",
+    "ingredientName": "100% avocados",
+    "aliases": [
+      "fresh hass avocados",
+      "hass"
+    ],
+    "variantTokens": [
+      "hass"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/category/avocado"
+  },
+  {
+    "id": "17693916be0d",
+    "name": "Fresh Roma Tomatoes",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "tomato"
+    ],
+    "parentName": "Tomatoes",
+    "ingredientName": "100% tomatoes",
+    "aliases": [
+      "fresh roma tomatoes",
+      "roma"
+    ],
+    "variantTokens": [
+      "roma"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0689259002968",
+    "image": "https://images.openfoodfacts.org/images/products/068/925/900/2968/front_en.6.400.jpg"
+  },
+  {
+    "id": "2184b30feabd",
+    "name": "Fresh Beefsteak Tomatoes",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "tomato"
+    ],
+    "parentName": "Tomatoes",
+    "ingredientName": "100% tomatoes",
+    "aliases": [
+      "beefsteak",
+      "fresh beefsteak tomatoes"
+    ],
+    "variantTokens": [
+      "beefsteak"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/category/tomato"
+  },
+  {
+    "id": "fa5e1bb145eb",
+    "name": "Russet Potatoes",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "potato"
+    ],
+    "parentName": "Potatoes",
+    "ingredientName": "100% potatoes",
+    "aliases": [
+      "russet",
+      "russet potatoes"
+    ],
+    "variantTokens": [
+      "russet"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/category/potato"
+  },
+  {
+    "id": "7c57238c44c1",
+    "name": "Red Potatoes",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "potato"
+    ],
+    "parentName": "Potatoes",
+    "ingredientName": "Wholegrain Wheat (95%), Malted Barley Extract, Sugar, Salt, Niacin, Iron, Riboflavin (B2), Thiamin (B1), Folic Acid.",
+    "aliases": [
+      "red",
+      "red potatoes"
+    ],
+    "variantTokens": [
+      "red"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/5010029000016",
+    "image": "https://images.openfoodfacts.org/images/products/501/002/900/0016/front_en.44.400.jpg"
+  },
+  {
+    "id": "4f818a04fbbd",
+    "name": "Yellow Onions",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "onion"
+    ],
+    "parentName": "Onions",
+    "ingredientName": "100% onions",
+    "aliases": [
+      "yellow",
+      "yellow onions"
+    ],
+    "variantTokens": [
+      "yellow"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/category/onion"
+  },
+  {
+    "id": "d5bc9b2e6d86",
+    "name": "Red Onions",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "onion"
+    ],
+    "parentName": "Onions",
+    "ingredientName": "Rehydrated textured _soya_ protein 62%, red onion 19%, water, _soya_ protein concentrate, rapeseed oil, red onion powder, kibbled red onion, methyl cellulose, salt, sugar, yeast extract, rosemary, sunflower oil, white pepper, ginger.",
+    "aliases": [
+      "red",
+      "red onions"
+    ],
+    "variantTokens": [
+      "red"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/5056053304720",
+    "image": "https://images.openfoodfacts.org/images/products/505/605/330/4720/front_en.32.400.jpg"
+  },
+  {
+    "id": "5a36e1545f15",
+    "name": "Whole Carrots",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "carrot"
+    ],
+    "parentName": "Carrots",
+    "ingredientName": "100% carrots",
+    "aliases": [
+      "whole carrots"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://world.openfoodfacts.org/category/carrot"
+  },
+  {
+    "id": "ccaf9e530a07",
+    "name": "Baby Cut Carrots",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "carrot"
+    ],
+    "parentName": "Carrots",
+    "ingredientName": "100% carrots",
+    "aliases": [
+      "baby",
+      "baby cut carrots"
+    ],
+    "variantTokens": [
+      "baby"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0077890137635",
+    "image": "https://images.openfoodfacts.org/images/products/007/789/013/7635/front_en.20.400.jpg"
+  },
+  {
+    "id": "f0f66e5c6ce9",
+    "name": "Green Bell Pepper",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "bell pepper"
+    ],
+    "parentName": "Bell Peppers",
+    "ingredientName": "100% bell peppers",
+    "aliases": [
+      "green",
+      "green bell pepper"
+    ],
+    "variantTokens": [
+      "green"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/category/bell pepper"
+  },
+  {
+    "id": "ac9f28bd74e1",
+    "name": "Red Bell Pepper",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "bell pepper"
+    ],
+    "parentName": "Bell Peppers",
+    "ingredientName": "100% bell peppers",
+    "aliases": [
+      "red",
+      "red bell pepper"
+    ],
+    "variantTokens": [
+      "red"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/category/bell pepper"
+  },
+  {
+    "id": "aa9e0bc157fb",
+    "name": "English Cucumber",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "cucumber"
+    ],
+    "parentName": "Cucumbers",
+    "ingredientName": "English cucumbers",
+    "aliases": [
+      "english",
+      "english cucumber"
+    ],
+    "variantTokens": [
+      "english"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0057836168220",
+    "image": "https://images.openfoodfacts.org/images/products/005/783/616/8220/front_en.15.400.jpg"
+  },
+  {
+    "id": "da1d54aea237",
+    "name": "Red Seedless Grapes",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "grapes"
+    ],
+    "parentName": "Grapes",
+    "ingredientName": "100% grapes",
+    "aliases": [
+      "red",
+      "red seedless grapes",
+      "seedless"
+    ],
+    "variantTokens": [
+      "red",
+      "seedless"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/category/grapes"
+  },
+  {
+    "id": "8fa71bd884b9",
+    "name": "Green Seedless Grapes",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "grapes"
+    ],
+    "parentName": "Grapes",
+    "ingredientName": "100% grapes",
+    "aliases": [
+      "green",
+      "green seedless grapes",
+      "seedless"
+    ],
+    "variantTokens": [
+      "green",
+      "seedless"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/category/grapes"
+  },
+  {
+    "id": "480231d5357d",
+    "name": "Fresh Strawberries",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "strawberry"
+    ],
+    "parentName": "Strawberries",
+    "ingredientName": "strawberries, class 1,",
+    "aliases": [
+      "fresh strawberries"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://world.openfoodfacts.org/product/20241971",
+    "image": "https://images.openfoodfacts.org/images/products/000/002/024/1971/front_de.25.400.jpg"
+  },
+  {
+    "id": "ad3ffa298c1d",
+    "name": "Fresh Broccoli Crowns",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "broccoli"
+    ],
+    "parentName": "Broccoli",
+    "ingredientName": "100% broccoli",
+    "aliases": [
+      "crowns",
+      "fresh broccoli crowns"
+    ],
+    "variantTokens": [
+      "crowns"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/00030823",
+    "image": "https://images.openfoodfacts.org/images/products/000/000/003/0823/front_en.4.400.jpg"
+  },
+  {
+    "id": "1cf5fc84da9b",
+    "name": "Romaine Lettuce Hearts",
+    "brand": null,
+    "category": "produce",
+    "detectorClasses": [
+      "lettuce"
+    ],
+    "parentName": "Lettuce",
+    "ingredientName": "ROMAINE HEARTS.",
+    "aliases": [
+      "romaine",
+      "romaine lettuce hearts"
+    ],
+    "variantTokens": [
+      "romaine"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0000651003214",
+    "image": "https://images.openfoodfacts.org/images/products/000/065/100/3214/front_en.5.400.jpg"
+  },
+  {
+    "id": "5d18e59c349f",
+    "name": "Great Value Whole Milk",
+    "brand": "Great Value",
+    "category": "dairy",
+    "detectorClasses": [
+      "milk jug",
+      "milk carton"
+    ],
+    "parentName": "Milk",
+    "ingredientName": null,
+    "aliases": [
+      "great value",
+      "great value whole milk",
+      "vitamin d",
+      "whole",
+      "whole milk"
+    ],
+    "variantTokens": [
+      "whole",
+      "vitamin d"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Great%20Value%20Whole%20Milk"
+  },
+  {
+    "id": "3667ad92ef2f",
+    "name": "Great Value 2% Reduced Fat Milk",
+    "brand": "Great Value",
+    "category": "dairy",
+    "detectorClasses": [
+      "milk jug",
+      "milk carton"
+    ],
+    "parentName": "Milk",
+    "ingredientName": null,
+    "aliases": [
+      "2%",
+      "2% reduced fat milk",
+      "great value",
+      "great value 2% reduced fat milk",
+      "reduced fat"
+    ],
+    "variantTokens": [
+      "2%",
+      "reduced fat"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Great%20Value%202%25%20Reduced%20Fat%20Milk"
+  },
+  {
+    "id": "7832b3c7c34f",
+    "name": "Great Value 1% Low Fat Milk",
+    "brand": "Great Value",
+    "category": "dairy",
+    "detectorClasses": [
+      "milk jug",
+      "milk carton"
+    ],
+    "parentName": "Milk",
+    "ingredientName": null,
+    "aliases": [
+      "1%",
+      "1% low fat milk",
+      "great value",
+      "great value 1% low fat milk",
+      "low fat"
+    ],
+    "variantTokens": [
+      "1%",
+      "low fat"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Great%20Value%201%25%20Low%20Fat%20Milk"
+  },
+  {
+    "id": "1afb9b19066a",
+    "name": "Great Value Fat Free Skim Milk",
+    "brand": "Great Value",
+    "category": "dairy",
+    "detectorClasses": [
+      "milk jug",
+      "milk carton"
+    ],
+    "parentName": "Milk",
+    "ingredientName": null,
+    "aliases": [
+      "fat free",
+      "fat free skim milk",
+      "great value",
+      "great value fat free skim milk",
+      "nonfat",
+      "skim"
+    ],
+    "variantTokens": [
+      "skim",
+      "fat free",
+      "nonfat"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Great%20Value%20Fat%20Free%20Skim%20Milk"
+  },
+  {
+    "id": "52542a8a6061",
+    "name": "Quaker Old Fashioned Oats",
+    "brand": "Quaker",
+    "category": "pantry",
+    "detectorClasses": [
+      "oatmeal canister",
+      "oats box"
+    ],
+    "parentName": "Oats",
+    "ingredientName": "whole grain rolled oats",
+    "aliases": [
+      "old fashioned",
+      "old fashioned oats",
+      "quaker",
+      "quaker old fashioned oats",
+      "rolled oats",
+      "quaker old fashioned rolled oats"
+    ],
+    "variantTokens": [
+      "old fashioned",
+      "rolled oats"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0030000010402",
+    "image": "https://images.openfoodfacts.org/images/products/003/000/001/0402/front_en.268.400.jpg"
+  },
+  {
+    "id": "b90905283be1",
+    "name": "Quaker Quick 1-Minute Oats",
+    "brand": "Quaker",
+    "category": "pantry",
+    "detectorClasses": [
+      "oatmeal canister",
+      "oats box"
+    ],
+    "parentName": "Oats",
+    "ingredientName": "Whole Grain Rolled Oats",
+    "aliases": [
+      "1-minute",
+      "instant",
+      "quaker",
+      "quaker quick 1-minute oats",
+      "quick",
+      "quick 1-minute oats"
+    ],
+    "variantTokens": [
+      "quick",
+      "1-minute",
+      "instant"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0030000012000",
+    "image": "https://images.openfoodfacts.org/images/products/003/000/001/2000/front_en.179.400.jpg"
+  },
+  {
+    "id": "7242bf53d9b8",
+    "name": "Great Value LARGE WHITE EGGS",
+    "brand": "Great Value",
+    "category": "dairy",
+    "detectorClasses": [
+      "egg carton"
+    ],
+    "parentName": "Eggs",
+    "ingredientName": "Egg",
+    "aliases": [
+      "grade a",
+      "great value",
+      "great value large white eggs",
+      "large white",
+      "large white eggs"
+    ],
+    "variantTokens": [
+      "large white",
+      "grade a"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0078742127088",
+    "image": "https://images.openfoodfacts.org/images/products/007/874/212/7088/front_en.112.400.jpg"
+  },
+  {
+    "id": "ad03bc9e5bc0",
+    "name": "Eggland's Best Large White Eggs",
+    "brand": "Eggland's Best",
+    "category": "dairy",
+    "detectorClasses": [
+      "egg carton"
+    ],
+    "parentName": "Eggs",
+    "ingredientName": null,
+    "aliases": [
+      "eggland's best",
+      "eggland's best large white eggs",
+      "grade a",
+      "large",
+      "large white eggs"
+    ],
+    "variantTokens": [
+      "grade a",
+      "large"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Eggland%27s%20Best%20Large%20White%20Eggs"
+  },
+  {
+    "id": "41439f96cba1",
+    "name": "Land O Lakes Sweet Cream Salted Light Butter",
+    "brand": "Land O Lakes",
+    "category": "dairy",
+    "detectorClasses": [
+      "butter box"
+    ],
+    "parentName": "Butter",
+    "ingredientName": "BUTTER (CREAM, SALT), WATER*, BUTTERMILK*, CONTAINS LESS THAN 2% OF FOOD STARCH-MODIFIED*, TAPIOCA MALTODEXTRIN*, SALT, DISTILLED MONOGLYCERIDES*, LACTIC ACID*, POTASSIUM SORBATE* AND SODIUM BENZOATE* (PRESERVATIVES), PGPR* (EMULSIFIER), NATURAL FLAVOR*, XANTHAN GUM*, VITAMIN A PALMITATE*, BETA CAROTENE* (COLOR). *INGREDIENTS NOT FOUND IN REGULAR BUTTER",
+    "aliases": [
+      "land o lakes",
+      "land o lakes sweet cream salted light butter",
+      "salted",
+      "sweet cream salted light butter",
+      "land o lakes sweet cream butter salted"
+    ],
+    "variantTokens": [
+      "salted"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0034500152365"
+  },
+  {
+    "id": "4579636c3bf6",
+    "name": "Land O Lakes Sweet Cream Butter Unsalted",
+    "brand": "Land O Lakes",
+    "category": "dairy",
+    "detectorClasses": [
+      "butter box"
+    ],
+    "parentName": "Butter",
+    "ingredientName": null,
+    "aliases": [
+      "land o lakes",
+      "land o lakes sweet cream butter unsalted",
+      "sweet cream butter unsalted",
+      "unsalted"
+    ],
+    "variantTokens": [
+      "unsalted"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Land%20O%20Lakes%20Sweet%20Cream%20Butter%20Unsalted"
+  },
+  {
+    "id": "5df23f96f998",
+    "name": "Great Value Butter Salted Sweet Cream",
+    "brand": "Great Value",
+    "category": "dairy",
+    "detectorClasses": [
+      "butter box"
+    ],
+    "parentName": "Butter",
+    "ingredientName": "cream, salt,",
+    "aliases": [
+      "butter salted sweet cream",
+      "great value",
+      "great value butter salted sweet cream",
+      "salted",
+      "sweet cream",
+      "great value sweet cream butter"
+    ],
+    "variantTokens": [
+      "sweet cream",
+      "salted"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0078742374192",
+    "image": "https://images.openfoodfacts.org/images/products/007/874/237/4192/front_en.14.400.jpg"
+  },
+  {
+    "id": "515a70247d90",
+    "name": "Kraft Cheddar Shredded Fat Free Cheddar Cheese",
+    "brand": "Kraft",
+    "category": "dairy",
+    "detectorClasses": [
+      "cheese bag"
+    ],
+    "parentName": "Cheese",
+    "ingredientName": "Nonfat cheddar cheese, pasteurized skim milk, cheese culture, salt, yeast, titanium dioxide, enzymes, annatto, natural flavor, vitamin A palmitate, modified cornstarch, natamycin.",
+    "aliases": [
+      "cheddar",
+      "cheddar shredded fat free cheddar cheese",
+      "kraft",
+      "kraft cheddar shredded fat free cheddar cheese",
+      "shredded",
+      "kraft shredded cheddar cheese"
+    ],
+    "variantTokens": [
+      "cheddar",
+      "shredded"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0840370901190",
+    "image": "https://images.openfoodfacts.org/images/products/084/037/090/1190/front_en.82.400.jpg"
+  },
+  {
+    "id": "9d99bf66de91",
+    "name": "Kraft Shredded Mozzarella Cheese",
+    "brand": "Kraft",
+    "category": "dairy",
+    "detectorClasses": [
+      "cheese bag"
+    ],
+    "parentName": "Cheese",
+    "ingredientName": null,
+    "aliases": [
+      "kraft",
+      "kraft shredded mozzarella cheese",
+      "mozzarella",
+      "shredded",
+      "shredded mozzarella cheese"
+    ],
+    "variantTokens": [
+      "mozzarella",
+      "shredded"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Kraft%20Shredded%20Mozzarella%20Cheese"
+  },
+  {
+    "id": "ae157d01bd68",
+    "name": "Great Value Shredded Sharp Cheddar Cheese",
+    "brand": "Great Value",
+    "category": "dairy",
+    "detectorClasses": [
+      "cheese bag"
+    ],
+    "parentName": "Cheese",
+    "ingredientName": null,
+    "aliases": [
+      "great value",
+      "great value shredded sharp cheddar cheese",
+      "sharp cheddar",
+      "shredded",
+      "shredded sharp cheddar cheese"
+    ],
+    "variantTokens": [
+      "sharp cheddar",
+      "shredded"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Great%20Value%20Shredded%20Sharp%20Cheddar%20Cheese"
+  },
+  {
+    "id": "51a4b893c4aa",
+    "name": "Barilla Spaghetti N\u00ba5",
+    "brand": "Barilla",
+    "category": "pantry",
+    "detectorClasses": [
+      "pasta box"
+    ],
+    "parentName": "Pasta",
+    "ingredientName": "DURUM WHEAT SEMOLINA PASTA",
+    "aliases": [
+      "barilla",
+      "barilla spaghetti n\u00ba5",
+      "spaghetti",
+      "spaghetti n\u00ba5",
+      "barilla spaghetti pasta"
+    ],
+    "variantTokens": [
+      "spaghetti"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/8076800195057",
+    "image": "https://images.openfoodfacts.org/images/products/807/680/019/5057/front_en.3881.400.jpg"
+  },
+  {
+    "id": "7f913a6eee19",
+    "name": "Barilla Penne Rigate Pasta",
+    "brand": "Barilla",
+    "category": "pantry",
+    "detectorClasses": [
+      "pasta box"
+    ],
+    "parentName": "Pasta",
+    "ingredientName": null,
+    "aliases": [
+      "barilla",
+      "barilla penne rigate pasta",
+      "penne",
+      "penne rigate",
+      "penne rigate pasta"
+    ],
+    "variantTokens": [
+      "penne",
+      "penne rigate"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Barilla%20Penne%20Rigate%20Pasta"
+  },
+  {
+    "id": "be4a3f0d3e34",
+    "name": "Great Value Elbow Macaroni Pasta",
+    "brand": "Great Value",
+    "category": "pantry",
+    "detectorClasses": [
+      "pasta box"
+    ],
+    "parentName": "Pasta",
+    "ingredientName": null,
+    "aliases": [
+      "elbow macaroni",
+      "elbow macaroni pasta",
+      "elbows",
+      "great value",
+      "great value elbow macaroni pasta"
+    ],
+    "variantTokens": [
+      "elbow macaroni",
+      "elbows"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Great%20Value%20Elbow%20Macaroni%20Pasta"
+  },
+  {
+    "id": "4ca930eaa18c",
+    "name": "Mahatma Extra Long Grain Enriched White Rice",
+    "brand": "Mahatma",
+    "category": "pantry",
+    "detectorClasses": [
+      "rice bag"
+    ],
+    "parentName": "Rice",
+    "ingredientName": null,
+    "aliases": [
+      "extra long grain",
+      "extra long grain enriched white rice",
+      "mahatma",
+      "mahatma extra long grain enriched white rice",
+      "white rice"
+    ],
+    "variantTokens": [
+      "white rice",
+      "extra long grain"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Mahatma%20Extra%20Long%20Grain%20Enriched%20White%20Rice"
+  },
+  {
+    "id": "544a5e50c8a4",
+    "name": "Great Value Long Grain Brown Rice",
+    "brand": "Great Value",
+    "category": "pantry",
+    "detectorClasses": [
+      "rice bag"
+    ],
+    "parentName": "Rice",
+    "ingredientName": null,
+    "aliases": [
+      "brown rice",
+      "great value",
+      "great value long grain brown rice",
+      "long grain",
+      "long grain brown rice"
+    ],
+    "variantTokens": [
+      "brown rice",
+      "long grain"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Great%20Value%20Long%20Grain%20Brown%20Rice"
+  },
+  {
+    "id": "af9f132e88d9",
+    "name": "Wonder Classic White Bread",
+    "brand": "Wonder",
+    "category": "bakery",
+    "detectorClasses": [
+      "bread bag"
+    ],
+    "parentName": "Bread",
+    "ingredientName": null,
+    "aliases": [
+      "classic white",
+      "classic white bread",
+      "white bread",
+      "wonder",
+      "wonder classic white bread"
+    ],
+    "variantTokens": [
+      "white bread",
+      "classic white"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Wonder%20Classic%20White%20Bread"
+  },
+  {
+    "id": "49b2f91b1829",
+    "name": "Nature's Own 100% Whole Wheat Bread",
+    "brand": "Nature's Own",
+    "category": "bakery",
+    "detectorClasses": [
+      "bread bag"
+    ],
+    "parentName": "Bread",
+    "ingredientName": null,
+    "aliases": [
+      "100% whole wheat",
+      "100% whole wheat bread",
+      "nature's own",
+      "nature's own 100% whole wheat bread",
+      "whole wheat"
+    ],
+    "variantTokens": [
+      "100% whole wheat",
+      "whole wheat"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Nature%27s%20Own%20100%25%20Whole%20Wheat%20Bread"
+  },
+  {
+    "id": "c96123f6ceae",
+    "name": "Sara Lee Honey Wheat Bread",
+    "brand": "Sara Lee",
+    "category": "bakery",
+    "detectorClasses": [
+      "bread bag"
+    ],
+    "parentName": "Bread",
+    "ingredientName": "enriched wheat flour [flour, malted barley flour, reduced iron, niacin, thiamin mononitrate (vitamin b1), riboflavin (vitamin b2), folic acid], water, honey, whole wheat flour, yeast, wheat gluten, soybean oil, wheat bran, sugar, salt, preservatives (calcium propionate, sorbic acid), datem, monoglycerides, cellulose gum, natural flavors, monocalcium phosphate, calcium sulfate, soy lecithin, citric acid, grain vinegar, potassium iodate,",
+    "aliases": [
+      "honey wheat",
+      "honey wheat bread",
+      "sara lee",
+      "sara lee honey wheat bread"
+    ],
+    "variantTokens": [
+      "honey wheat"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0072945601369",
+    "image": "https://images.openfoodfacts.org/images/products/007/294/560/1369/front_en.108.400.jpg"
+  },
+  {
+    "id": "d7e1fbcd8d34",
+    "name": "Chobani Greek Yogurt Nonfat Plain",
+    "brand": "Chobani",
+    "category": "dairy",
+    "detectorClasses": [
+      "yogurt tub",
+      "yogurt cup"
+    ],
+    "parentName": "Yogurt",
+    "ingredientName": "_cultured nonfat milk_, S. Thermophilus, L. Bulgaricus, L. Acidophilus, Bifidus, L. Casei, L. Rhamnosus",
+    "aliases": [
+      "chobani",
+      "chobani greek yogurt nonfat plain",
+      "greek",
+      "greek yogurt nonfat plain",
+      "plain",
+      "chobani greek plain yogurt"
+    ],
+    "variantTokens": [
+      "plain",
+      "greek"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0894700010137",
+    "image": "https://images.openfoodfacts.org/images/products/089/470/001/0137/front_en.838.400.jpg"
+  },
+  {
+    "id": "9e8b62b9dfee",
+    "name": "Chobani Greek Yogurt Strawberry",
+    "brand": "Chobani",
+    "category": "dairy",
+    "detectorClasses": [
+      "yogurt cup"
+    ],
+    "parentName": "Yogurt",
+    "ingredientName": "Nonfat yogurt (cultured pasteurized nonfat milk), evaporated cane sugar, strawberries, water, fruit pectin, natural flavors, locust bean gum, fruit and vegetable juice concentrate (for color), lemon juice concentrate.",
+    "aliases": [
+      "chobani",
+      "chobani greek yogurt strawberry",
+      "greek",
+      "greek yogurt strawberry",
+      "strawberry",
+      "chobani greek strawberry yogurt"
+    ],
+    "variantTokens": [
+      "strawberry",
+      "greek"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0894700010045",
+    "image": "https://images.openfoodfacts.org/images/products/089/470/001/0045/front_en.170.400.jpg"
+  },
+  {
+    "id": "4974c7911517",
+    "name": "Dannon, activia, 1% milkfat with fiber, lowfat yogurt, vanilla, vanilla",
+    "brand": "Dannon",
+    "category": "dairy",
+    "detectorClasses": [
+      "yogurt tub",
+      "yogurt cup"
+    ],
+    "parentName": "Yogurt",
+    "ingredientName": "Cultured grade a reduced fat milk, cane sugar, water, pineapple, inulin, modified food starch, contains less than 1% of rolled white wheat flakes, red wheat bran, milk protein concentrate, kosher gelatin, rolled oats, natural flavor, agar agar, citric acid, sodium citrate, vitamin d3, turmeric (for color).",
+    "aliases": [
+      ", activia, 1% milkfat with fiber, lowfat yogurt, vanilla, vanilla",
+      "dannon",
+      "dannon, activia, 1% milkfat with fiber, lowfat yogurt, vanilla, vanilla",
+      "lowfat",
+      "vanilla",
+      "dannon vanilla lowfat yogurt"
+    ],
+    "variantTokens": [
+      "vanilla",
+      "lowfat"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0036632035615"
+  },
+  {
+    "id": "b602fb957141",
+    "name": "Jif Extra Crunchy Peanut Butter",
+    "brand": "Jif",
+    "category": "pantry",
+    "detectorClasses": [
+      "peanut-butter jar"
+    ],
+    "parentName": "Peanut Butter",
+    "ingredientName": "ROASTED PEANUTS, SUGAR, 2% MOLASSES, FULL HYDROGENATED VEGETABLE OILS (RAPESEED, SOYBEAN), MONO AND DIGLYCERIDES, SALT.",
+    "aliases": [
+      "crunchy",
+      "extra crunchy",
+      "extra crunchy peanut butter",
+      "jif",
+      "jif extra crunchy peanut butter"
+    ],
+    "variantTokens": [
+      "crunchy",
+      "extra crunchy"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0051500255377",
+    "image": "https://images.openfoodfacts.org/images/products/005/150/025/5377/front_en.70.400.jpg"
+  },
+  {
+    "id": "0312cdfe25e0",
+    "name": "Jif Creamy Peanut Butter",
+    "brand": "Jif",
+    "category": "pantry",
+    "detectorClasses": [
+      "peanut-butter jar"
+    ],
+    "parentName": "Peanut Butter",
+    "ingredientName": "MADE FROM ROASTED PEANUTS AND SUGAR, CONTAINS 2% OR LESS OF: MOLASSES, FULLY HYDROGENATED VEGETABLE OILS (RAPESEED AND SOYBEAN), MONO AND DIGLYCERIDES, SALT.",
+    "aliases": [
+      "creamy",
+      "creamy peanut butter",
+      "jif",
+      "jif creamy peanut butter"
+    ],
+    "variantTokens": [
+      "creamy"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0051500255162",
+    "image": "https://images.openfoodfacts.org/images/products/005/150/025/5162/front_en.197.400.jpg"
+  },
+  {
+    "id": "441aa03d2230",
+    "name": "Skippy Creamy Peanut Butter",
+    "brand": "Skippy",
+    "category": "pantry",
+    "detectorClasses": [
+      "peanut-butter jar"
+    ],
+    "parentName": "Peanut Butter",
+    "ingredientName": "roasted peanuts, sugar, hydrogenated vegetable oil (cottonseed, soybean and rapeseed oil) to prevent separation, salt.",
+    "aliases": [
+      "creamy",
+      "creamy peanut butter",
+      "skippy",
+      "skippy creamy peanut butter"
+    ],
+    "variantTokens": [
+      "creamy"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0037600110754",
+    "image": "https://images.openfoodfacts.org/images/products/003/760/011/0754/front_en.105.400.jpg"
+  },
+  {
+    "id": "e5f9652752dd",
+    "name": "Bush's Best Original Baked Beans",
+    "brand": "Bush's Best",
+    "category": "pantry",
+    "detectorClasses": [
+      "canned food"
+    ],
+    "parentName": "Canned Beans",
+    "ingredientName": null,
+    "aliases": [
+      "baked beans",
+      "bush's best",
+      "bush's best original baked beans",
+      "original",
+      "original baked beans"
+    ],
+    "variantTokens": [
+      "baked beans",
+      "original"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Bush%27s%20Best%20Original%20Baked%20Beans"
+  },
+  {
+    "id": "571b33571756",
+    "name": "Goya Black Beans",
+    "brand": "Goya",
+    "category": "pantry",
+    "detectorClasses": [
+      "canned food"
+    ],
+    "parentName": "Canned Beans",
+    "ingredientName": "BLACK BEANS, WATER AND SALT.",
+    "aliases": [
+      "black beans",
+      "goya",
+      "goya black beans"
+    ],
+    "variantTokens": [
+      "black beans"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0041331124669",
+    "image": "https://images.openfoodfacts.org/images/products/004/133/112/4669/front_en.141.400.jpg"
+  },
+  {
+    "id": "efc2a7319fec",
+    "name": "Great Value Black Beans",
+    "brand": "Great Value",
+    "category": "pantry",
+    "detectorClasses": [
+      "canned food"
+    ],
+    "parentName": "Canned Beans",
+    "ingredientName": "PREPARED BLACK BEANS, WATER, SALT.",
+    "aliases": [
+      "black beans",
+      "great value",
+      "great value black beans"
+    ],
+    "variantTokens": [
+      "black beans"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0078742075761",
+    "image": "https://images.openfoodfacts.org/images/products/007/874/207/5761/front_en.55.400.jpg"
+  },
+  {
+    "id": "0f94645067b4",
+    "name": "Tropicana Pure Premium 100% Orange Juice",
+    "brand": "Tropicana",
+    "category": "beverage",
+    "detectorClasses": [
+      "juice bottle"
+    ],
+    "parentName": "Juice",
+    "ingredientName": null,
+    "aliases": [
+      "no pulp",
+      "orange juice",
+      "pure premium",
+      "pure premium 100% orange juice",
+      "tropicana",
+      "tropicana pure premium 100% orange juice"
+    ],
+    "variantTokens": [
+      "orange juice",
+      "no pulp",
+      "pure premium"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Tropicana%20Pure%20Premium%20100%25%20Orange%20Juice"
+  },
+  {
+    "id": "6a5590b90a3d",
+    "name": "Simply Orange Pulp Free Juice",
+    "brand": "Simply Orange",
+    "category": "beverage",
+    "detectorClasses": [
+      "juice bottle"
+    ],
+    "parentName": "Juice",
+    "ingredientName": null,
+    "aliases": [
+      "orange juice",
+      "pulp free",
+      "pulp free juice",
+      "simply orange",
+      "simply orange pulp free juice"
+    ],
+    "variantTokens": [
+      "pulp free",
+      "orange juice"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Simply%20Orange%20Pulp%20Free%20Juice"
+  },
+  {
+    "id": "ab4af13b2e99",
+    "name": "Ocean Spray Cranberry Juice Cocktail",
+    "brand": "Ocean Spray",
+    "category": "beverage",
+    "detectorClasses": [
+      "juice bottle"
+    ],
+    "parentName": "Juice",
+    "ingredientName": "FILTERED WATER, CRANBERRY JUICE FROM CONCENTRATE (WATER, CRANBERRY JUICE CONCENTRATE), SUGAR, ASCORBIC ACID (VITAMIN C), VEGETABLE JUICE CONCENTRATE FOR COLOR",
+    "aliases": [
+      "cocktail",
+      "cranberry juice",
+      "cranberry juice cocktail",
+      "ocean spray",
+      "ocean spray cranberry juice cocktail"
+    ],
+    "variantTokens": [
+      "cranberry juice",
+      "cocktail"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/0012000021367",
+    "image": "https://images.openfoodfacts.org/images/products/001/200/002/1367/front_en.41.400.jpg"
+  },
+  {
+    "id": "6682cd94900d",
+    "name": "Birds Eye Steamfresh Sweet Kernel Corn",
+    "brand": "Birds Eye",
+    "category": "frozen",
+    "detectorClasses": [
+      "frozen-food bag"
+    ],
+    "parentName": "Frozen Vegetables",
+    "ingredientName": null,
+    "aliases": [
+      "birds eye",
+      "birds eye steamfresh sweet kernel corn",
+      "corn",
+      "steamfresh sweet kernel corn",
+      "sweet kernel corn"
+    ],
+    "variantTokens": [
+      "sweet kernel corn",
+      "corn"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Birds%20Eye%20Steamfresh%20Sweet%20Kernel%20Corn"
+  },
+  {
+    "id": "65e41d2e7007",
+    "name": "Birds Eye Steamfresh Cut Green Beans",
+    "brand": "Birds Eye",
+    "category": "frozen",
+    "detectorClasses": [
+      "frozen-food bag"
+    ],
+    "parentName": "Frozen Vegetables",
+    "ingredientName": null,
+    "aliases": [
+      "birds eye",
+      "birds eye steamfresh cut green beans",
+      "cut green beans",
+      "green beans",
+      "steamfresh cut green beans"
+    ],
+    "variantTokens": [
+      "green beans",
+      "cut green beans"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Birds%20Eye%20Steamfresh%20Cut%20Green%20Beans"
+  },
+  {
+    "id": "ac8e29123404",
+    "name": "Great Value Frozen Broccoli Florets",
+    "brand": "Great Value",
+    "category": "frozen",
+    "detectorClasses": [
+      "frozen-food bag"
+    ],
+    "parentName": "Frozen Vegetables",
+    "ingredientName": null,
+    "aliases": [
+      "broccoli",
+      "broccoli florets",
+      "frozen broccoli florets",
+      "great value",
+      "great value frozen broccoli florets"
+    ],
+    "variantTokens": [
+      "broccoli florets",
+      "broccoli"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Great%20Value%20Frozen%20Broccoli%20Florets"
+  },
+  {
+    "id": "9067867beba3",
+    "name": "Cheerios Honey Nut Cereal",
+    "brand": "Cheerios",
+    "category": "pantry",
+    "detectorClasses": [
+      "cereal box"
+    ],
+    "parentName": "Cereal",
+    "ingredientName": null,
+    "aliases": [
+      "cheerios",
+      "cheerios honey nut cereal",
+      "honey nut",
+      "honey nut cereal"
+    ],
+    "variantTokens": [
+      "honey nut"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Cheerios%20Honey%20Nut%20Cereal"
+  },
+  {
+    "id": "f27003bccf11",
+    "name": "Kellogg's Frosted Flakes Cereal",
+    "brand": "Kellogg's",
+    "category": "pantry",
+    "detectorClasses": [
+      "cereal box"
+    ],
+    "parentName": "Cereal",
+    "ingredientName": null,
+    "aliases": [
+      "frosted flakes",
+      "frosted flakes cereal",
+      "kellogg's",
+      "kellogg's frosted flakes cereal"
+    ],
+    "variantTokens": [
+      "frosted flakes"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Kellogg%27s%20Frosted%20Flakes%20Cereal"
+  },
+  {
+    "id": "1524744c359a",
+    "name": "General Mills Cinnamon Toast Crunch Cereal",
+    "brand": "General Mills",
+    "category": "pantry",
+    "detectorClasses": [
+      "cereal box"
+    ],
+    "parentName": "Cereal",
+    "ingredientName": null,
+    "aliases": [
+      "cinnamon toast crunch",
+      "cinnamon toast crunch cereal",
+      "general mills",
+      "general mills cinnamon toast crunch cereal"
+    ],
+    "variantTokens": [
+      "cinnamon toast crunch"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=General%20Mills%20Cinnamon%20Toast%20Crunch%20Cereal"
+  },
+  {
+    "id": "11e34a0e4402",
+    "name": "Lay's Lays Classics Salted 20rs",
+    "brand": "Lay's",
+    "category": "snack",
+    "detectorClasses": [
+      "snack bag"
+    ],
+    "parentName": "Potato Chips",
+    "ingredientName": "Potato, Edible Vegetable Oil\n\n(Palmolein Oil), &quot;Seasoning (Maltodextrin, lodised Salt, &quot;Spices & Condiments, Sugar, Flavour (Natural and Nature Identical Flavouring Substances), Anticaking Agent (551), Flavour Enhancers (627, 631), Edible Vegetable Oil (Palm)).\n\n&quot;As flavouring agent. &quot;Contains Onion & Garlic",
+    "aliases": [
+      "classic",
+      "lay's",
+      "lay's lays classics salted 20rs",
+      "lays classics salted 20rs",
+      "potato chips",
+      "lay's classic potato chips"
+    ],
+    "variantTokens": [
+      "classic",
+      "potato chips"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/8901491101837",
+    "image": "https://images.openfoodfacts.org/images/products/890/149/110/1837/front_en.26.400.jpg"
+  },
+  {
+    "id": "2e13a3d58f7e",
+    "name": "Doritos Nacho Cheese Tortilla Chips",
+    "brand": "Doritos",
+    "category": "snack",
+    "detectorClasses": [
+      "snack bag"
+    ],
+    "parentName": "Tortilla Chips",
+    "ingredientName": null,
+    "aliases": [
+      "doritos",
+      "doritos nacho cheese tortilla chips",
+      "nacho cheese",
+      "nacho cheese tortilla chips",
+      "tortilla chips"
+    ],
+    "variantTokens": [
+      "nacho cheese",
+      "tortilla chips"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Doritos%20Nacho%20Cheese%20Tortilla%20Chips"
+  },
+  {
+    "id": "c13098ac2e0d",
+    "name": "Oreo original box",
+    "brand": "Oreo",
+    "category": "snack",
+    "detectorClasses": [
+      "cookie box"
+    ],
+    "parentName": "Cookies",
+    "ingredientName": "wheat flour, sugar, palm oil, rapeseed oil, wheat starch, low-fat cocoa powder 4,7%, glucose-fructose syrup, raising agents (ammonium carbonates, potassium carbonates, sodium carbonates), salt, emulsifier (soy lecithins), acidity regulator (sodium hydroxide), flavourings, may contain milk,",
+    "aliases": [
+      "chocolate",
+      "oreo",
+      "oreo original box",
+      "original box",
+      "sandwich cookies",
+      "oreo chocolate sandwich cookies"
+    ],
+    "variantTokens": [
+      "sandwich cookies",
+      "chocolate"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/8410000810004",
+    "image": "https://images.openfoodfacts.org/images/products/841/000/081/0004/front_da.163.400.jpg"
+  },
+  {
+    "id": "8bb6ee77731b",
+    "name": "Nabisco Ritz Crackers",
+    "brand": "Ritz",
+    "category": "snack",
+    "detectorClasses": [
+      "cracker box"
+    ],
+    "parentName": "Crackers",
+    "ingredientName": null,
+    "aliases": [
+      "crackers",
+      "nabisco ritz crackers",
+      "original",
+      "ritz"
+    ],
+    "variantTokens": [
+      "crackers",
+      "original"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Nabisco%20Ritz%20Crackers"
+  },
+  {
+    "id": "9c6c16a15429",
+    "name": "Campbell's Condensed Tomato Soup",
+    "brand": "Campbell's",
+    "category": "pantry",
+    "detectorClasses": [
+      "soup can",
+      "canned food"
+    ],
+    "parentName": "Soup",
+    "ingredientName": "Tomato Puree (85%), Sugar, Onions, Modified Tapioca Starch (E1442), Salt, Garlic, Acidity Regulator (Sodium Bicarbonate), Thickener (Xanthan Gum), Food Colour (Paprika Extract), Herbs, Natural Flavour, Spices",
+    "aliases": [
+      "campbell's",
+      "campbell's condensed tomato soup",
+      "condensed",
+      "condensed tomato soup",
+      "tomato soup"
+    ],
+    "variantTokens": [
+      "tomato soup",
+      "condensed"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/9300644234511",
+    "image": "https://images.openfoodfacts.org/images/products/930/064/423/4511/front_en.9.400.jpg"
+  },
+  {
+    "id": "dde0b9598acd",
+    "name": "Campbell's Condensed Chicken Noodle Soup",
+    "brand": "Campbell's",
+    "category": "pantry",
+    "detectorClasses": [
+      "soup can",
+      "canned food"
+    ],
+    "parentName": "Soup",
+    "ingredientName": null,
+    "aliases": [
+      "campbell's",
+      "campbell's condensed chicken noodle soup",
+      "chicken noodle",
+      "condensed",
+      "condensed chicken noodle soup"
+    ],
+    "variantTokens": [
+      "chicken noodle",
+      "condensed"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/cgi/search.pl?search_terms=Campbell%27s%20Condensed%20Chicken%20Noodle%20Soup"
+  },
+  {
+    "id": "97175a431c59",
+    "name": "Coca-Cola Original Taste",
+    "brand": "Coca-Cola",
+    "category": "beverage",
+    "detectorClasses": [
+      "soda can"
+    ],
+    "parentName": "Soda",
+    "ingredientName": "Water, fructose - glucose syrup, carbon dioxide, colorant: e150d, acid: phosphoric acid, natural flavorings (including caffeine).",
+    "aliases": [
+      "classic",
+      "coca-cola",
+      "coca-cola original taste",
+      "original",
+      "original taste",
+      "coca-cola original taste soda"
+    ],
+    "variantTokens": [
+      "original",
+      "classic"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/5449000054227",
+    "image": "https://images.openfoodfacts.org/images/products/544/900/005/4227/front_en.563.400.jpg"
+  },
+  {
+    "id": "10e18e464af4",
+    "name": "Diet Coke Can 250ml",
+    "brand": "Diet Coke",
+    "category": "beverage",
+    "detectorClasses": [
+      "soda can"
+    ],
+    "parentName": "Soda",
+    "ingredientName": "CARBONATED WATER, ACIDITY REGULATOR (338), SWEETENERS (951,950), PRESERVATIVE (211), CAFFEINE. CONTAINS PERMITTED NATURAL COLOUR (150d) AND ADDED FLAVOURS (NATURAL FLAVOURING SUBSTANC\u00c9S).",
+    "aliases": [
+      "can 250ml",
+      "diet",
+      "diet coke",
+      "diet coke can 250ml",
+      "diet coke soda"
+    ],
+    "variantTokens": [
+      "diet"
+    ],
+    "sourceUrl": "https://world.openfoodfacts.org/product/8901764061257",
+    "image": "https://images.openfoodfacts.org/images/products/890/176/406/1257/front_en.15.400.jpg"
+  },
+  {
+    "id": "65820099d6d5",
+    "name": "Aiyino Women's High Waist Yoga Pants Tummy Control Slimming Booty Leggings Workout Running Butt Lift Tights",
+    "brand": "Aiyino",
+    "category": "dairy",
+    "detectorClasses": [
+      "egg carton"
+    ],
+    "parentName": "Eggs",
+    "ingredientName": null,
+    "aliases": [
+      "aiyino",
+      "aiyino women's high waist yoga pants tummy control slimming booty leggings workout running butt lift tights",
+      "women's high waist yoga pants tummy control slimming booty leggings workout running butt lift tights"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/Aiyino-Women-s-High-Waist-Yoga-Pants-Tummy-Control-Slimming-Booty-Leggings-Workout-Running-Butt-Lift-Tights/1341833689"
+  },
+  {
+    "id": "43663db201e4",
+    "name": "LARACE Women's Tops Long Sleeve Dressy Casual Plus Size Tunic Tops to Wear with Leggings Loose T-Shirt Loose Fit Blouses NavyBlue 1X",
+    "brand": "Larace",
+    "category": "dairy",
+    "detectorClasses": [
+      "egg carton"
+    ],
+    "parentName": "Eggs",
+    "ingredientName": null,
+    "aliases": [
+      "larace",
+      "larace women's tops long sleeve dressy casual plus size tunic tops to wear with leggings loose t-shirt loose fit blouses navyblue 1x",
+      "women's tops long sleeve dressy casual plus size tunic tops to wear with leggings loose t-shirt loose fit blouses navyblue 1x"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/LARACE-Women-s-Tops-Long-Sleeve-Dressy-Casual-Plus-Size-Tunic-Tops-to-Wear-with-Leggings-Loose-T-Shirt-Loose-Fit-Blouses-NavyBlue-1X/5041920521"
+  },
+  {
+    "id": "bd1e51f0c171",
+    "name": "Fresh Roasted Coffee, Indian Monsoon Water Decaf Coffee, Medium-Dark Roast Whole Bean, 80 oz",
+    "brand": "Fresh Roasted Coffee",
+    "category": "pantry",
+    "detectorClasses": [
+      "coffee bag"
+    ],
+    "parentName": "Coffee",
+    "ingredientName": null,
+    "aliases": [
+      ", indian monsoon water decaf coffee, medium-dark roast whole bean, 80 oz",
+      "fresh roasted coffee",
+      "fresh roasted coffee, indian monsoon water decaf coffee, medium-dark roast whole bean, 80 oz",
+      "whole"
+    ],
+    "variantTokens": [
+      "whole"
+    ],
+    "sourceUrl": "https://www.walmart.com/ip/Fresh-Roasted-Coffee-Indian-Monsoon-Water-Decaf-Coffee-Medium-Dark-Roast-Whole-Bean-80-oz/306465658"
+  },
+  {
+    "id": "289e2b75cefa",
+    "name": "WestinTrends Julia 10 Ft Outdoor Patio Cantilever Umbrella with Base Included, Market Hanging Offset Umbrella with 4-Pieces Fillable Base Weight, Coffee",
+    "brand": "WestinTrends",
+    "category": "pantry",
+    "detectorClasses": [
+      "coffee bag"
+    ],
+    "parentName": "Coffee",
+    "ingredientName": null,
+    "aliases": [
+      "julia 10 ft outdoor patio cantilever umbrella with base included, market hanging offset umbrella with 4-pieces fillable base weight, coffee",
+      "westintrends",
+      "westintrends julia 10 ft outdoor patio cantilever umbrella with base included, market hanging offset umbrella with 4-pieces fillable base weight, coffee"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/WestinTrends-Julia-10-Ft-Outdoor-Patio-Cantilever-Umbrella-Base-Included-Market-Hanging-Offset-4-Pieces-Fillable-Weight-Coffee/469036214"
+  },
+  {
+    "id": "a546315fcf4d",
+    "name": "TheLovely Women & Plus Front and Back Reversible Spaghetti Strap Flowy Cami Tank Tops",
+    "brand": "TheLovely",
+    "category": "pantry",
+    "detectorClasses": [
+      "pasta box"
+    ],
+    "parentName": "Pasta",
+    "ingredientName": null,
+    "aliases": [
+      "thelovely",
+      "thelovely women & plus front and back reversible spaghetti strap flowy cami tank tops",
+      "women & plus front and back reversible spaghetti strap flowy cami tank tops"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/TheLovely-Women-Plus-Front-and-Back-Reversible-Spaghetti-Strap-Flowy-Cami-Tank-Tops/435835263"
+  },
+  {
+    "id": "d5c9afa1847f",
+    "name": "Women & Plus Cotton High Waist Full Length Cotton Workout Leggings (BLACK/CHARCOAL, M)",
+    "brand": "TheLovely",
+    "category": "dairy",
+    "detectorClasses": [
+      "egg carton"
+    ],
+    "parentName": "Eggs",
+    "ingredientName": null,
+    "aliases": [
+      "thelovely",
+      "women & plus cotton high waist full length cotton workout leggings (black/charcoal, m)"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/Women-Plus-Cotton-High-Waist-Full-Length-Cotton-Workout-Leggings-BLACK-CHARCOAL-M/531529503"
+  },
+  {
+    "id": "7a5055d4b094",
+    "name": "Pntutb Womens Plus Size Clearance,Women's Printed Yoga Fitness Leggings Running Gym Stretch Sports Pants Trousers",
+    "brand": "PNTUTB",
+    "category": "dairy",
+    "detectorClasses": [
+      "egg carton"
+    ],
+    "parentName": "Eggs",
+    "ingredientName": null,
+    "aliases": [
+      "pntutb",
+      "pntutb womens plus size clearance,women's printed yoga fitness leggings running gym stretch sports pants trousers",
+      "womens plus size clearance,women's printed yoga fitness leggings running gym stretch sports pants trousers"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/Pntutb-Womens-Plus-Size-Clearance-Women-s-Printed-Yoga-Fitness-Leggings-Running-Gym-Stretch-Sports-Pants-Trousers/1792864118"
+  },
+  {
+    "id": "f6f47159dbe7",
+    "name": "Zenana Womens's Cotton Stretch Mid Thigh Length Leggings Fitness Sport Biker Shorts",
+    "brand": "Zenana",
+    "category": "dairy",
+    "detectorClasses": [
+      "egg carton"
+    ],
+    "parentName": "Eggs",
+    "ingredientName": null,
+    "aliases": [
+      "womens's cotton stretch mid thigh length leggings fitness sport biker shorts",
+      "zenana",
+      "zenana womens's cotton stretch mid thigh length leggings fitness sport biker shorts"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/Zenana-Womens-s-Cotton-Stretch-Mid-Thigh-Length-Leggings-Fitness-Sport-Biker-Shorts/751510659"
+  },
+  {
+    "id": "6a542f3abd21",
+    "name": "Zbar - Chocolate Chip and Iced Oatmeal Cookie - Variety Pack - Soft Baked Whole Grain Snack Bars - USDA Organic - Non-GMO - Plant-Based - 1.27 oz. (24 Count)",
+    "brand": "ZBAR",
+    "category": "pantry",
+    "detectorClasses": [
+      "oatmeal canister",
+      "oats box"
+    ],
+    "parentName": "Oats",
+    "ingredientName": null,
+    "aliases": [
+      "- chocolate chip and iced oatmeal cookie - variety pack - soft baked whole grain snack bars - usda organic - non-gmo - plant-based - 1.27 oz. (24 count)",
+      "organic",
+      "whole",
+      "zbar",
+      "zbar - chocolate chip and iced oatmeal cookie - variety pack - soft baked whole grain snack bars - usda organic - non-gmo - plant-based - 1.27 oz. (24 count)"
+    ],
+    "variantTokens": [
+      "whole",
+      "organic"
+    ],
+    "sourceUrl": "https://www.walmart.com/ip/Zbar-Chocolate-Chip-Iced-Oatmeal-Cookie-Variety-Pack-Soft-Baked-Whole-Grain-Snack-Bars-USDA-Organic-Non-GMO-Plant-Based-1-27-oz-24-Count/422458903"
+  },
+  {
+    "id": "e540b7384f58",
+    "name": "CARCOS Women's Cami With Built-In Shelf Bra Plus Stretch with Adjustable Spaghetti Straps Basic Undershirt Layer Tank Top Black-L",
+    "brand": "CARCOS",
+    "category": "pantry",
+    "detectorClasses": [
+      "pasta box"
+    ],
+    "parentName": "Pasta",
+    "ingredientName": null,
+    "aliases": [
+      "carcos",
+      "carcos women's cami with built-in shelf bra plus stretch with adjustable spaghetti straps basic undershirt layer tank top black-l",
+      "women's cami with built-in shelf bra plus stretch with adjustable spaghetti straps basic undershirt layer tank top black-l"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/CARCOS-Women-s-Cami-With-Built-In-Shelf-Bra-Plus-Stretch-with-Adjustable-Spaghetti-Straps-Basic-Undershirt-Layer-Tank-Top-Black-L/887578061"
+  },
+  {
+    "id": "4eed410247dc",
+    "name": "V8 +Energy Black Cherry and Pomegranate Blueberry Juice Energy Drinks, 8 fl oz Can, 24 Count (4 Packs of 6)",
+    "brand": "V8 Juice",
+    "category": "beverage",
+    "detectorClasses": [
+      "juice bottle"
+    ],
+    "parentName": "Juice",
+    "ingredientName": null,
+    "aliases": [
+      "v8 +energy black cherry and pomegranate blueberry juice energy drinks, 8 fl oz can, 24 count (4 packs of 6)",
+      "v8 juice"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/V8-Energy-Black-Cherry-and-Pomegranate-Blueberry-Juice-Energy-Drinks-8-fl-oz-Can-24-Count-4-Packs-of-6/885092913"
+  },
+  {
+    "id": "dbd23c0bafc2",
+    "name": "Sofra Women & Plus Cotton High Waist Full Length Cotton Workout Leggings (Burgundy/Olive, S)",
+    "brand": "Sofra",
+    "category": "dairy",
+    "detectorClasses": [
+      "egg carton"
+    ],
+    "parentName": "Eggs",
+    "ingredientName": null,
+    "aliases": [
+      "sofra",
+      "sofra women & plus cotton high waist full length cotton workout leggings (burgundy/olive, s)",
+      "women & plus cotton high waist full length cotton workout leggings (burgundy/olive, s)"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/Sofra-Women-Plus-Cotton-High-Waist-Full-Length-Cotton-Workout-Leggings-Burgundy-Olive-S/370320502"
+  },
+  {
+    "id": "e9468316b8e9",
+    "name": "TIYOMI Women's Plus Size Pants Full Length 3X Brown Ankle Leggings Stretchy Soft Casual Butt Fit Leggings Solid Color Bottom Autumn Winter Wear Out Pants 3XL 22W 24W",
+    "brand": "TIYOMI",
+    "category": "dairy",
+    "detectorClasses": [
+      "egg carton"
+    ],
+    "parentName": "Eggs",
+    "ingredientName": null,
+    "aliases": [
+      "tiyomi",
+      "tiyomi women's plus size pants full length 3x brown ankle leggings stretchy soft casual butt fit leggings solid color bottom autumn winter wear out pants 3xl 22w 24w",
+      "women's plus size pants full length 3x brown ankle leggings stretchy soft casual butt fit leggings solid color bottom autumn winter wear out pants 3xl 22w 24w"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/TIYOMI-Women-s-Plus-Size-Pants-Full-Length-3X-Brown-Ankle-Leggings-Stretchy-Soft-Casual-Butt-Fit-Solid-Color-Bottom-Autumn-Winter-Wear-Out-3XL-22W-24/1184654530"
+  },
+  {
+    "id": "76de75b6c8e6",
+    "name": "Bakell - Royal Gold Tinker Dust (5g, x1 Jar) Edible Glitter for Cake Decorating, Cupcakes, Cookies and Other Desserts",
+    "brand": "Bakell",
+    "category": "snack",
+    "detectorClasses": [
+      "cookie box"
+    ],
+    "parentName": "Cookies",
+    "ingredientName": null,
+    "aliases": [
+      "- royal gold tinker dust (5g, x1 jar) edible glitter for cake decorating, cupcakes, cookies and other desserts",
+      "bakell",
+      "bakell - royal gold tinker dust (5g, x1 jar) edible glitter for cake decorating, cupcakes, cookies and other desserts"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/Bakell-Royal-Gold-Tinker-Dust-5g-x1-Jar-Edible-Glitter-for-Cake-Decorating-Cupcakes-Cookies-and-Other-Desserts/689096319"
+  },
+  {
+    "id": "3137395e2641",
+    "name": "TIYOMI Ladies Plus Size Thickened Pants 4X Beige Casual Full Length Ankle Leggings Flesh Color High Waist Nude Leggings Butt Fit Bottom Pants Fall Winter Pants 4XL 24-26",
+    "brand": "TIYOMI",
+    "category": "dairy",
+    "detectorClasses": [
+      "egg carton"
+    ],
+    "parentName": "Eggs",
+    "ingredientName": null,
+    "aliases": [
+      "ladies plus size thickened pants 4x beige casual full length ankle leggings flesh color high waist nude leggings butt fit bottom pants fall winter pants 4xl 24-26",
+      "tiyomi",
+      "tiyomi ladies plus size thickened pants 4x beige casual full length ankle leggings flesh color high waist nude leggings butt fit bottom pants fall winter pants 4xl 24-26"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/TIYOMI-Ladies-Plus-Size-Thickened-Pants-4X-Beige-Casual-Full-Length-Ankle-Leggings-Flesh-Color-High-Waist-Nude-Butt-Fit-Bottom-Fall-Winter-4XL-24-26/6925859211"
+  },
+  {
+    "id": "9e49d638b81e",
+    "name": "Abcnature Women Leggings Shorts, Butt Lift Scrunch Textured Leggings Workout Shorts, Basic Slip Bike Shorts, High Waist Tummy Control Yoga Shorts Running Shorts Green 3XL",
+    "brand": "Abcnature",
+    "category": "dairy",
+    "detectorClasses": [
+      "egg carton"
+    ],
+    "parentName": "Eggs",
+    "ingredientName": null,
+    "aliases": [
+      "abcnature",
+      "abcnature women leggings shorts, butt lift scrunch textured leggings workout shorts, basic slip bike shorts, high waist tummy control yoga shorts running shorts green 3xl",
+      "women leggings shorts, butt lift scrunch textured leggings workout shorts, basic slip bike shorts, high waist tummy control yoga shorts running shorts green 3xl"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/Abcnature-Women-Leggings-Shorts-Butt-Lift-Scrunch-Textured-Workout-Basic-Slip-Bike-High-Waist-Tummy-Control-Yoga-Shorts-Running-Green-3XL/784626947"
+  },
+  {
+    "id": "6cebeb98d376",
+    "name": "Arrowhead Mills Puffed Rice Cereal 6 oz Pkg",
+    "brand": "Arrowhead Mills",
+    "category": "pantry",
+    "detectorClasses": [
+      "cereal box"
+    ],
+    "parentName": "Cereal",
+    "ingredientName": null,
+    "aliases": [
+      "arrowhead mills",
+      "arrowhead mills puffed rice cereal 6 oz pkg",
+      "puffed rice cereal 6 oz pkg"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/Arrowhead-Mills-Puffed-Rice-Cereal-6-oz-Pkg/28926816"
+  },
+  {
+    "id": "485c082f5c3c",
+    "name": "Gubotare Women's Bikini Top Bathing Suit V Neck Adjustable Spaghetti Straps Twist Front (Hot Pink,M)",
+    "brand": "Gubotare",
+    "category": "pantry",
+    "detectorClasses": [
+      "pasta box"
+    ],
+    "parentName": "Pasta",
+    "ingredientName": null,
+    "aliases": [
+      "gubotare",
+      "gubotare women's bikini top bathing suit v neck adjustable spaghetti straps twist front (hot pink,m)",
+      "women's bikini top bathing suit v neck adjustable spaghetti straps twist front (hot pink,m)"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/Gubotare-Women-s-Bikini-Top-Bathing-Suit-V-Neck-Adjustable-Spaghetti-Straps-Twist-Front-Hot-Pink-M/5768017984"
+  },
+  {
+    "id": "09c304396c2d",
+    "name": "GUESS Womens White Lace Zippered Flounce-hem Lined Spaghetti Strap Sweetheart Neckline Knee Length Sheath Dress 4",
+    "brand": "GUESS",
+    "category": "pantry",
+    "detectorClasses": [
+      "pasta box"
+    ],
+    "parentName": "Pasta",
+    "ingredientName": null,
+    "aliases": [
+      "guess",
+      "guess womens white lace zippered flounce-hem lined spaghetti strap sweetheart neckline knee length sheath dress 4",
+      "white",
+      "womens white lace zippered flounce-hem lined spaghetti strap sweetheart neckline knee length sheath dress 4"
+    ],
+    "variantTokens": [
+      "white"
+    ],
+    "sourceUrl": "https://www.walmart.com/ip/GUESS-Womens-White-Lace-Zippered-Flounce-hem-Lined-Spaghetti-Strap-Sweetheart-Neckline-Knee-Length-Sheath-Dress-4/1570467303"
+  },
+  {
+    "id": "fbf6addd6d38",
+    "name": "Aiyino Women's V Neck Floral Spaghetti Strap Summer Casual Swing Dress with Pocket",
+    "brand": "Aiyino",
+    "category": "pantry",
+    "detectorClasses": [
+      "pasta box"
+    ],
+    "parentName": "Pasta",
+    "ingredientName": null,
+    "aliases": [
+      "aiyino",
+      "aiyino women's v neck floral spaghetti strap summer casual swing dress with pocket",
+      "women's v neck floral spaghetti strap summer casual swing dress with pocket"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/Aiyino-Women-s-V-Neck-Floral-Spaghetti-Strap-Summer-Casual-Swing-Dress-with-Pocket/1974609871"
+  },
+  {
+    "id": "ec34ccdd8c31",
+    "name": "Amay 100% Cotton 600-Thread Count 4-PCs Sheet Set Easily Fit upto 24 Inch Deep Pockets Stripe Pattern ( Queen, Chocolate )",
+    "brand": "Amay's",
+    "category": "beverage",
+    "detectorClasses": [
+      "soda can"
+    ],
+    "parentName": "Soda",
+    "ingredientName": null,
+    "aliases": [
+      "amay 100% cotton 600-thread count 4-pcs sheet set easily fit upto 24 inch deep pockets stripe pattern ( queen, chocolate )",
+      "amay's"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/Amay-100-Cotton-600-Thread-Count-4-PCs-Sheet-Set-Easily-Fit-upto-24-Inch-Deep-Pockets-Stripe-Pattern-Queen-Chocolate/3280135427"
+  },
+  {
+    "id": "09318fbeae46",
+    "name": "Mott's Cinnamon Applesauce, 4 oz cups, 6 count",
+    "brand": "Mott's",
+    "category": "pantry",
+    "detectorClasses": [
+      "sauce bottle"
+    ],
+    "parentName": "Sauce",
+    "ingredientName": null,
+    "aliases": [
+      "cinnamon applesauce, 4 oz cups, 6 count",
+      "mott's",
+      "mott's cinnamon applesauce, 4 oz cups, 6 count"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/Mott-s-Cinnamon-Applesauce-4-Ounce-Cup-6-Count/10294756"
+  },
+  {
+    "id": "a3b6aba7c34c",
+    "name": "Active Basic Women & Plus Basic Solid Long Length Adjustable Spaghetti Strap Camisoles (4PK - Black/White/H. Grey/Taupe, 3XL)",
+    "brand": "Active Basic",
+    "category": "pantry",
+    "detectorClasses": [
+      "pasta box"
+    ],
+    "parentName": "Pasta",
+    "ingredientName": null,
+    "aliases": [
+      "active basic",
+      "active basic women & plus basic solid long length adjustable spaghetti strap camisoles (4pk - black/white/h. grey/taupe, 3xl)",
+      "white",
+      "women & plus basic solid long length adjustable spaghetti strap camisoles (4pk - black/white/h. grey/taupe, 3xl)"
+    ],
+    "variantTokens": [
+      "white"
+    ],
+    "sourceUrl": "https://www.walmart.com/ip/Active-Basic-Women-Plus-Basic-Solid-Long-Length-Adjustable-Spaghetti-Strap-Camisoles-4PK-Black-White-H-Grey-Taupe-3XL/790279534"
+  },
+  {
+    "id": "06121023d6ee",
+    "name": "2 Packs of Zenana Women Premium Cotton High Waist Full Ankle Length Leggings",
+    "brand": "Zenana",
+    "category": "dairy",
+    "detectorClasses": [
+      "egg carton"
+    ],
+    "parentName": "Eggs",
+    "ingredientName": null,
+    "aliases": [
+      "2 packs of zenana women premium cotton high waist full ankle length leggings",
+      "zenana"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/2-Packs-of-Zenana-Women-Premium-Cotton-High-Waist-Full-Ankle-Length-Leggings/522908316"
+  },
+  {
+    "id": "7a001a05a93a",
+    "name": "WHIPPY Women Leather Belt with Double Ring Buckle, Coffee Waist Belt for Jeans Dress",
+    "brand": "Whippy",
+    "category": "pantry",
+    "detectorClasses": [
+      "coffee bag"
+    ],
+    "parentName": "Coffee",
+    "ingredientName": null,
+    "aliases": [
+      "whippy",
+      "whippy women leather belt with double ring buckle, coffee waist belt for jeans dress",
+      "women leather belt with double ring buckle, coffee waist belt for jeans dress"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/WHIPPY-Women-Leather-Belt-with-Double-Ring-Buckle-Coffee-Waist-Belt-for-Jeans-Dress/5353145797"
+  },
+  {
+    "id": "b226f6d64929",
+    "name": "SHOWMALL Plus Size Women Top 3/4 Sleeve Dark Green 2X Blouse Swing Tunic Lace Crewneck Maternity&nbsp; Loose Fitting T-Shirt for Leggings",
+    "brand": "Showmall",
+    "category": "dairy",
+    "detectorClasses": [
+      "egg carton"
+    ],
+    "parentName": "Eggs",
+    "ingredientName": null,
+    "aliases": [
+      "plus size women top 3/4 sleeve dark green 2x blouse swing tunic lace crewneck maternity&nbsp; loose fitting t-shirt for leggings",
+      "showmall",
+      "showmall plus size women top 3/4 sleeve dark green 2x blouse swing tunic lace crewneck maternity&nbsp; loose fitting t-shirt for leggings"
+    ],
+    "variantTokens": [],
+    "sourceUrl": "https://www.walmart.com/ip/SHOWMALL-Plus-Size-Women-Top-3-4-Sleeve-Dark-Green-2X-Blouse-Swing-Tunic-Lace-Crewneck-Maternity-nbsp-Loose-Fitting-T-Shirt-for-Leggings/705018473"
+  },
+  {
+    "id": "41481b2a8582",
+    "name": "Tony's Chocolonely 51% Dark Chocolate Bar with Almonds and Sea Salt",
+    "brand": "Tony's Chocolonely",
+    "category": "beverage",
+    "detectorClasses": [
+      "soda can"
+    ],
+    "parentName": "Soda",
+    "ingredientName": null,
+    "aliases": [
+      "1%",
+      "51% dark chocolate bar with almonds and sea salt",
+      "tony's chocolonely",
+      "tony's chocolonely 51% dark chocolate bar with almonds and sea salt"
+    ],
+    "variantTokens": [
+      "1%"
+    ],
+    "sourceUrl": "https://www.walmart.com/ip/Tony-s-Chocolonely-Dark-Chocolate-Bar-with-Almond-and-Sea-Salt-Vegan-6-35-Oz/182543171"
+  }
+]

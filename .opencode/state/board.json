@@ -1,0 +1,61 @@
+{
+  "project": "on-device-grocery-scanner-netlify-prototype",
+  "phase": "application-complete",
+  "mode": "functioning-prototype",
+  "artifacts": [
+    {
+      "path": "DIRECTORY.md",
+      "purpose": "Full folder tree + per-file code placement specs (600 lines)",
+      "status": "written"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "purpose": "Contracts, pipeline events, detector/OCR/matcher rules, confidence model, module boundaries, perf contract",
+      "status": "written"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "purpose": "Test matrix, fixtures manifest protocol, delivery checklist, timing report template",
+      "status": "written"
+    },
+    {
+      "path": "README.md",
+      "purpose": "Stack summary, workflow, behavior guarantees, verification pointers, status table",
+      "status": "written"
+    }
+  ],
+  "keyDecisions": [
+    "Shared types centralized in src/types/contracts.ts (Detection, ProductMatch, PipelineEvent union)",
+    "Pipeline emits only: loading-model/downloading-model → detecting → detected → reading-label → ocr-start/ocr-end → identified → matching → done | error",
+    "ONNX meta sidecar public/models/groceries.onnx.meta.json is single source of truth for class index order (must match scripts/prompts.py)",
+    "Confidence: packaged round(100*(0.65*detection+0.25*ocr+0.10*margin)); produce renormalizes to detection 0.65/0.75 + margin 0.10/0.75",
+    "OCR budget 4 crops / 8s, non-blocking done; skip produce; skip <60px height after enhanced attempts",
+    "Matcher never uses catalog popularity for specificity; conflicts collapse to shared parentName",
+    "No .pt on client; seg-ONNX box-only fallback documented in export meta",
+    "Module boundary: inference/* must not import React; UI never calls YLO.load/tesseract directly"
+  ],
+  "handoffToExecute": {
+    "nextPhase": "build-application",
+    "entrypoints": [
+      "scripts/prompts.py + scripts/export_model.py + scripts/build_catalog.py (Python, build machine)",
+      "src/types/contracts.ts then src/inference/* pure modules then context/pages/components",
+      "tests/unit/matcher.*.test.ts and confidence.ranking.test.ts first (pure, no DOM)"
+    ],
+    "constraints": [
+      "No hosted AI APIs, no backend, no WebGPU requirement",
+      "Netlify static only; SPA redirect for /results",
+      ">=60 catalog entries with real sources; never fabricate SKUs",
+      "Report real timings; iPhone unverified unless physical device used"
+    ],
+    "risks": [
+      "YOLOE detection-only ONNX export may fail -> seg fallback boxes path must be verified with onnxruntime",
+      "tesseract.js cold wasm/traineddata download on first scan must have progress + retry UX",
+      "iOS EXIF createImageBitmap imageOrientation support varies; canvas fallback required",
+      "ONNX file size may force artifact-not-git strategy on Netlify"
+    ]
+  },
+  "resources": {
+    "parallelSubagentsUsed": false,
+    "reason": "Requirements fully specified by user; documentation authored sequentially by orchestrator (no research gap)"
+  }
+}

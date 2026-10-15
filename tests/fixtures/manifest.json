@@ -1,0 +1,152 @@
+{
+  "images": [
+    {
+      "id": "single-1",
+      "file": "single-item/great-value-2pct-milk.jpg",
+      "expected": [
+        { "displayName": "Great Value 2% Reduced Fat Milk", "minConfidence": 50 }
+      ],
+      "falsePositivesForbidden": ["Great Value Whole Vitamin D Milk"],
+      "notes": "Front label readable, single jug on clean counter",
+      "license": "CC0 project fixture",
+      "status": "NOT TESTED"
+    },
+    {
+      "id": "single-2",
+      "file": "single-item/quaker-old-fashioned-oats.jpg",
+      "expected": [
+        { "displayName": "Quaker Old Fashioned Rolled Oats", "minConfidence": 50 }
+      ],
+      "falsePositivesForbidden": ["Quaker Quick 1-Minute Oats"],
+      "notes": "Clear cylinder label",
+      "license": "CC0 project fixture",
+      "status": "NOT TESTED"
+    },
+    {
+      "id": "single-3",
+      "file": "single-item/fresh-bananas.jpg",
+      "expected": [
+        { "displayName": "Bananas", "minConfidence": 65 }
+      ],
+      "falsePositivesForbidden": [],
+      "notes": "Bunch of yellow bananas on kitchen counter",
+      "license": "CC0 project fixture",
+      "status": "NOT TESTED"
+    },
+    {
+      "id": "single-4",
+      "file": "single-item/gala-apples.jpg",
+      "expected": [
+        { "displayName": "Apples", "minConfidence": 65 }
+      ],
+      "falsePositivesForbidden": ["Oranges"],
+      "notes": "Single red apple with stem",
+      "license": "CC0 project fixture",
+      "status": "NOT TESTED"
+    },
+    {
+      "id": "single-5",
+      "file": "single-item/campbells-tomato-soup.jpg",
+      "expected": [
+        { "displayName": "Campbell's Condensed Tomato Soup", "minConfidence": 50 }
+      ],
+      "falsePositivesForbidden": [],
+      "notes": "Classic red/white Campbell's soup can",
+      "license": "CC0 project fixture",
+      "status": "NOT TESTED"
+    },
+    {
+      "id": "mixed-1",
+      "file": "mixed-table/table-breakfast-01.jpg",
+      "expected": [
+        { "displayName": "Milk", "minConfidence": 40 },
+        { "displayName": "Bananas", "minConfidence": 50 },
+        { "displayName": "Bread", "minConfidence": 40 }
+      ],
+      "falsePositivesForbidden": [],
+      "notes": "Table top with breakfast items",
+      "license": "CC0 project fixture",
+      "status": "NOT TESTED"
+    },
+    {
+      "id": "mixed-2",
+      "file": "mixed-table/table-snack-02.jpg",
+      "expected": [
+        { "displayName": "Potato Chips", "minConfidence": 40 },
+        { "displayName": "Cookies", "minConfidence": 40 }
+      ],
+      "falsePositivesForbidden": [],
+      "notes": "Living room table with snack bags and boxes",
+      "license": "CC0 project fixture",
+      "status": "NOT TESTED"
+    },
+    {
+      "id": "mixed-3",
+      "file": "mixed-table/table-pantry-03.jpg",
+      "expected": [
+        { "displayName": "Pasta", "minConfidence": 40 },
+        { "displayName": "Rice", "minConfidence": 40 },
+        { "displayName": "Beans", "minConfidence": 40 }
+      ],
+      "falsePositivesForbidden": [],
+      "notes": "Dry pantry items side-by-side",
+      "license": "CC0 project fixture",
+      "status": "NOT TESTED"
+    },
+    {
+      "id": "mixed-4",
+      "file": "mixed-table/table-produce-04.jpg",
+      "expected": [
+        { "displayName": "Apples", "minConfidence": 55 },
+        { "displayName": "Oranges", "minConfidence": 55 },
+        { "displayName": "Lemons", "minConfidence": 55 }
+      ],
+      "falsePositivesForbidden": [],
+      "notes": "Fruit bowl on dining table",
+      "license": "CC0 project fixture",
+      "status": "NOT TESTED"
+    },
+    {
+      "id": "mixed-5",
+      "file": "mixed-table/table-dairy-05.jpg",
+      "expected": [
+        { "displayName": "Eggs", "minConfidence": 45 },
+        { "displayName": "Butter", "minConfidence": 45 },
+        { "displayName": "Cheese", "minConfidence": 45 }
+      ],
+      "falsePositivesForbidden": [],
+      "notes": "Dairy haul on kitchen island",
+      "license": "CC0 project fixture",
+      "status": "NOT TESTED"
+    },
+    {
+      "id": "fridge-1",
+      "file": "occluded-fridge/fridge-shelf-top.jpg",
+      "expected": [
+        { "displayName": "Milk", "minConfidence": 35 },
+        { "displayName": "Yogurt", "minConfidence": 35 }
+      ],
+      "falsePositivesForbidden": [],
+      "notes": "Partially occluded fridge shelf in low indoor lighting",
+      "license": "CC0 project fixture",
+      "status": "NOT TESTED"
+    },
+    {
+      "id": "fridge-2",
+      "file": "occluded-fridge/fridge-crisper-drawer.jpg",
+      "expected": [
+        { "displayName": "Carrots", "minConfidence": 40 },
+        { "displayName": "Lettuce", "minConfidence": 40 }
+      ],
+      "falsePositivesForbidden": [],
+      "notes": "Vegetables in bottom crisper drawer with plastic bags",
+      "license": "CC0 project fixture",
+      "status": "NOT TESTED"
+    }
+  ],
+  "coverage": {
+    "singleItem": 5,
+    "mixedTable": 5,
+    "occludedFridge": 2
+  }
+}

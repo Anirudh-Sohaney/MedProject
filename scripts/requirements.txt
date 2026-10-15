@@ -1,0 +1,6 @@
+ultralytics[export-base]>=8.4.142
+onnx
+onnxruntime
+numpy
+requests
+pandas

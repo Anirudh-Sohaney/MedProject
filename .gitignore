@@ -1,0 +1,16 @@
+node_modules
+dist
+.env
+.env.local
+.DS_Store
+__pycache__/
+*.pyc
+*.pt
+*.tsbuildinfo
+*.config.js
+*.config.d.ts
+mobileclip*
+.venv/
+scripts/cache/
+yoloe-*.pt
+yoloe-*.onnx
